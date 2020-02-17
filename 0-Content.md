@@ -6,6 +6,8 @@
 * Ruby
 * GCC
 * LLVM
+* ANTLR
+* SOOT
 * Linux
 * RISC-V与Chisel
 * GDB
@@ -15,3 +17,4 @@
 * Latex
 * objdump与readelf
 * MediaWiki
+
