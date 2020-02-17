@@ -14,6 +14,6 @@ was the reference implementation of the Ruby programming language named after Ru
 
 
 
-[1] https://www.ruby-lang.org/en/about/
-[2] https://rubyonrails.org/
-[3] https://en.wikipedia.org/wiki/Yukihiro_Matsumoto
+[1] https://www.ruby-lang.org/en/about/  
+[2] https://rubyonrails.org/  
+[3] https://en.wikipedia.org/wiki/Yukihiro_Matsumoto  
