@@ -3,6 +3,7 @@
 ## Ruby的起源
 
 ## Ruby的发展
+JRuby的故事，
 
 ## Ruby的现状
 
@@ -22,5 +23,9 @@ Note: Streem is still in the design stage. It's not working yet. Stay tuned.
 [1] https://www.ruby-lang.org/en/about/  
 [2] https://rubyonrails.org/  
 [3] https://en.wikipedia.org/wiki/Yukihiro_Matsumoto  
-[4] https://github.com/matz
-[5] https://github.com/ruby/ruby
+[4] https://github.com/matz  
+[5] https://github.com/ruby/ruby  
+[6] https://github.com/jruby/jruby/wiki/AboutJRuby  
+[7] https://en.wikipedia.org/wiki/JRuby  
+[8] https://books.google.com/books?id=-BquZJXkzukC&pg=PA3&lpg=PA3&dq=Jan+Arne+Petersen+jruby&source=bl&ots=wVcjMNHYsB&sig=ACfU3U0g9N_bcttfa5Y1JPVGNxSvWBAQvA&hl=zh-TW&sa=X&ved=2ahUKEwjcwZWh79jnAhWPy4sBHYjfDhcQ6AEwCHoECAgQAQ#v=onepage&q=Jan%20Arne%20Petersen%20jruby&f=false
+
