@@ -6,7 +6,7 @@
 
 ## Ruby的现状
 
-## Ruby之父Yukihiro “Matz” Matsumoto
+## Ruby之父Matz
 
 MRI (for Matz's Ruby Interpreter).
 
