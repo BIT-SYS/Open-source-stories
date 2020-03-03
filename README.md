@@ -21,4 +21,5 @@ A collection of interesting open source stories.
 * Latex
 * objdump与readelf
 * MediaWiki
+* Infer
 
