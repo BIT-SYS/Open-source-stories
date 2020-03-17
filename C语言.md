@@ -83,8 +83,8 @@ Lua是一种强大、高效、轻量级、可嵌入的脚本语言。它支持�
 
 ### Reference   
 [1]http://wikipedia.org   
-[2]http://blog.csdn.net
-[3]https://www.sqlite.org/index.html
-[4]http://libevent.org
-[5]https://sourceforge.net/projects/cjson
+[2]http://blog.csdn.net  
+[3]https://www.sqlite.org/index.html  
+[4]http://libevent.org  
+[5]https://sourceforge.net/projects/cjson  
 [6]http://www.lua.org/about.html
