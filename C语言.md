@@ -69,7 +69,7 @@ cJSON也存在几个弱点，虽然功能不是非常强大，但cJSON的小身�
 
 ###  webbench
 
-webbench是Linux上一款优秀的web性能压力测试工具。webbench首先fork出多个子进程，每个子进程都循环做web访问测试。子进程把访问的结果通过pipe告诉父进程，父进程做最终的统计结果。webbench代码也非常简洁，源码加起来不到600行。
+webbench是Linux上一款优秀的web性能压力测试工具。webbench首先fork出多个子进程，每个子进程都循环做web访问测试。子进程把访问的结果通过pipe告诉父进程，父进程做最终的统计结果。webbench的代码也非常简洁，源码加起来不到600行。
 
 下载地址：http://home.tiscali.cz/~cz210552/webbench.html
 
