@@ -43,10 +43,48 @@ K&R主要介绍了以下特色：
 
 很值得一提的是，编程中著名的，几乎成为段子的“Hello World”，正是出自于这本书的第一版。“Hello World”在书中作为入门的第一个程序存在，现在这一程序几乎已经成为了所有程序设计语言的第一课。
 
+##		chapter 3: C语言开源项目
 
+###	 SQLite
+
+SQLite是一个C语言库，它实现了一个小型、快速、自给自足、高可靠性、功能完整的SQL数据库引擎。SQLite 是在世界上最广泛部署的 SQL 数据库引擎。SQLite内置在所有的移动电话和大多数计算机中，并捆绑在许多人们每天使用的各种应用程序中[3]。
+
+下载地址：https://www.sqlite.org/
+
+### libevent
+
+libevent是一个用C语言编写的、轻量级的开源高性能事件通知库。其API提供了在文件描述符上发生特定事件或超时之后执行回调函数的机制。此外，libevent还支持由于信号或常规超时而产生的回调[4]。
+
+Libevent 已经被广泛的应用，作为底层的网络库；比如 memcached、 Vomit、 Nylon、 Netchat等等。
+
+下载地址：https://github.com/libevent/libevent
+
+###  cJSON
+
+cJSON是一个超轻量级、可移植的、单文件的、简单到可以成为ANSI-C兼容JSON解析器[5]。cJSON的C文件仅有500多行，速度也非常理想。
+
+cJSON也存在几个弱点，虽然功能不是非常强大，但cJSON的小身板和速度是最值得赞赏的。其代码被非常好地维护着，结构也简单易懂，可以作为一个非常好的C语言项目进行学习。
+
+下载地址：https://sourceforge.net/projects/cjson/
+
+###  webbench
+
+webbench是Linux上一款优秀的web性能压力测试工具。webbench首先fork出多个子进程，每个子进程都循环做web访问测试。子进程把访问的结果通过pipe告诉父进程，父进程做最终的统计结果。webbench代码也非常简洁，源码加起来不到600行。
+
+下载地址：http://home.tiscali.cz/~cz210552/webbench.html
+
+###  Lua
+
+Lua是一种强大、高效、轻量级、可嵌入的脚本语言。它支持过程式编程、数据驱动编程和数据描述[6]。Lua结合了简单的过程语法和强大的基于关联数组和可扩展语义的数据描述结构。Lua是动态类型的，通过使用基于寄存器的虚拟机解释字节码来运行，并通过增量垃圾收集实现自动内存管理，这使它非常适合配置、脚本编制和快速原型设计。
+
+下载地址：http://www.lua.org/download.html
 
 
 
 ### Reference   
 [1]http://wikipedia.org   
 [2]http://blog.csdn.net
+[3]https://www.sqlite.org/index.html
+[4]http://libevent.org
+[5]https://sourceforge.net/projects/cjson
+[6]http://www.lua.org/about.html
