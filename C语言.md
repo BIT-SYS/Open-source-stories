@@ -35,7 +35,7 @@ Ken Thompson（left）和D.M.Ritchie（right）
 ## chapter 2: C语言的发展
 ### The C Programming language
 
-事实上，<strike>在上一章我们<\strike>说C语言C位出道其实并不太准确，至于原因却还是要从贝尔实验室来说起。
+事实上，<strike>在上一章我们</strike>说C语言C位出道其实并不太准确，至于原因却还是要从贝尔实验室来说起。
 
 自1925年以来，贝尔实验室一共获得了两万五千多项专利，诞生过9位诺贝尔奖得主。这样登峰造极的履历也让其他机构望尘莫及。在20世纪二三十年代，贝尔实验室的研究人员发明了晶体管，电荷耦合元件，光电池和无线电天文学等。在通讯领域中大名鼎鼎的Claude Elwood Shannon的成果也有部分是基于Harry Nyquist和Hartley从前在贝尔实验室中的研究。
 
