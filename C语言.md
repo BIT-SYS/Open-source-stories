@@ -84,11 +84,12 @@ GNU编译器套装（英语：GNU Compiler Collection，缩写为GCC），指一
 
 GCC原本用C开发，后来因为LLVM、Clang的崛起，它更快地将开发语言转换为C++。许多C的爱好者在对C++一知半解的情况下主观认定C++的性能一定会输给C，但是Ian Lance Taylor给出了不同的意见，并表明C++不但性能不输给C，而且能设计出更好，更容易维护的程序[4]。
 #### Clang
-是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端。它采用了LLVM作为其后端，而且由LLVM2.6开始，一起发布新版本。它的目标是提供一个GNU编译器套装（GCC）的替代品，支持了GNU编译器大多数的编译设置以及非官方语言的扩展。作者是克里斯·拉特纳（Chris Lattner），在苹果公司的赞助支持下进行开发，而源代码许可是使用类BSD的伊利诺伊大学厄巴纳-香槟分校开源码许可。  
-Clang项目包括Clang前端和Clang静态分析器等[5]。
+是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端。它采用了LLVM作为其后端，而且由LLVM2.6开始，一起发布新版本。它的目标是提供一个GNU编译器套装（GCC）的替代品，支持了GNU编译器大多数的编译设置以及非官方语言的扩展。作者是克里斯·拉特纳（Chris Lattner），在苹果公司的赞助支持下进行开发，而源代码许可是使用类BSD的伊利诺伊大学厄巴纳-香槟分校开源码许可。Clang项目包括Clang前端和Clang静态分析器等[5]。
 #### Small-c
 Small-c既是C编程语言的一个子集，适用于资源有限的微型计算机和嵌入式系统，也是该子集的一个实现。最初作为1970年代末和1980年代初可用的微型计算机系统的早期编译器是很有价值的，作为一个简单到足以用于教学目的的例子，这个实现也很有用。  
+
 最初的编译器是Ron Cain用Small-C为Intel 8080编写的，发表在1980年5月的*Dr. Dobb's Journal of Computer Calisthenics & Orthodontia*上。James E. Hendrix改进并扩展了最初的编译器，并编写了Small-c手册。Ron使用John Bass提供的Small-c开发的账号在SRI PDP 11/45 Unix系统上启动了Small-c。提供的源代码是在管理权限下发布到公共域的。Small-c对于微型计算机非常重要，这在某种程度上类似于GCC对于大型计算机的重要性
+
 Small-c是一个可重定向编译器。移植Small-c只需要为目标处理器重写后端代码生成器和库到操作系统接口调用。[6]
 #### Intel C++ Compiler
 Intel C++ Compiler，也称为icc或icl，是一组来自Intel的C和C++编译器，适用于Windows、Mac、Linux、FreeBSD和基于Intel的Android设备[7]。  
@@ -110,7 +111,7 @@ GLib是一个跨平台的、用C语言编写的五个底层库的集合，为GNO
 [3]https://zh.wikipedia.org/zh-hans/贝尔实验室 历史与成就部分  
 [4]https://zh.wikipedia.org/wiki/GNU_Compiler_Collection  
 [5]https://zh.wikipedia.org/wiki/Clang  
-[6]https://en.wikipedia.org/wiki/Small-C
+[6]https://en.wikipedia.org/wiki/Small-C  
 [7]https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler  
 [8]https://en.wikipedia.org/wiki/C_standard_library  
 [9]https://www.gnu.org/software/libc/  
