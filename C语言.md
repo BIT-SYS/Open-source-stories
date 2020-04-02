@@ -80,6 +80,11 @@ C语言的成功远远超出了所有人的预期，在它成功的原因中Unix
 （C++）
 
 ##	chapter 4: 有关Dennis MacAlistair Ritchie的一点趣事
+1968年，Ritchie在Patrick C. Fischer的指导下，在哈佛大学完成了他的博士论文《Program Structure and Computational Complexity》。然而，Ritchie从未正式获得博士学位[13]。  
+
+上世纪70年代，Ritchie与James Reeds和Robert Morris合作，对美国M-209型密码机发起了一场唯密文攻击。M-209型密码机至少能破解2000-2500个字母的信息。Ritchie提到，在与美国国家安全局（NSA）讨论之后，作者决定不发表这篇文章，因为他们被告知这一原则适用于外国政府仍在使用的机器[13]。  
+
+
 
 ##	chapter 5：C开源项目
 ### 编译器
@@ -126,3 +131,4 @@ GLib是一个跨平台的、用C语言编写的五个底层库的集合，为GNO
 [10]https://zh.wikipedia.org/wiki/GLib  
 [11]https://blog.csdn.net/lengye7/article/details/80255833   
 [12]https://blog.csdn.net/qq_41070844/article/details/100115504   
+[13]https://en.wikipedia.org/wiki/Dennis_Ritchie#Personal_life_and_career  
