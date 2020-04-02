@@ -77,7 +77,9 @@ C语言的成功远远超出了所有人的预期，在它成功的原因中Unix
 
 ##		chapter 3: C语言的继任者
 
-（C++）
+C++是由Bjarne Stroustrup及其同事创建的基于C语言扩展的、高层次、通用编程语言，或者说是“使用类的C语言”。随着时间的推移，该语言得到了显著的扩充，除了低级内存操作工具外，现代C++还具有面向对象的、通用的功能特性。C++总是作为编译语言被应用，许多厂商都提供C++编译器，包括自由软件基金会、LLVM、Microsoft、Intel、Oracle和IBM，C++也因此可以在许多平台上使用[14]。  
+
+C++起初被命名为"new C"，之后被称为"C with Classes",C++这个名字是Rick Mascitti于1983年中所建议的，并于1983年12月首次使用。C++最后的名字灵感来自C语言中的“++”操作符（其对变量的值进行递增），而且在共同的命名约定中，使用“+”以表示增强的程序。Rick Mascitti在1992年被非正式地问起名字的由来，他表示这是在半开玩笑中说出的。他从没想过C++会成为这门语言的正式名字。有一个关于C++名字的笑话，当你使用后缀++时，附加只发生在运算之后（因此，它应该是++C，而不是C++，这个笑话是说时下某些程序员还在以使用C的方式使用C++，这通常被一些权威著作认为是不正确的）[15]。
 
 ##	chapter 4: 有关Dennis MacAlistair Ritchie的一点趣事
 1968年，Ritchie在Patrick C. Fischer的指导下，在哈佛大学完成了他的博士论文《Program Structure and Computational Complexity》。然而，Ritchie从未正式获得博士学位[13]。  
@@ -132,3 +134,5 @@ GLib是一个跨平台的、用C语言编写的五个底层库的集合，为GNO
 [11]https://blog.csdn.net/lengye7/article/details/80255833   
 [12]https://blog.csdn.net/qq_41070844/article/details/100115504   
 [13]https://en.wikipedia.org/wiki/Dennis_Ritchie#Personal_life_and_career  
+[14]https://en.wikipedia.org/wiki/C%2B%2B  
+[15]http://blog.sina.com.cn/s/blog_ed323a6a0101rzyd.html  #名称由来
