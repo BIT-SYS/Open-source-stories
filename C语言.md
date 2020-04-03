@@ -24,7 +24,7 @@ Ken想要自己玩这个游戏，但又不想被老板发现，于是他就背�
 
 至此，未来风靡流行几十年的C语言就这样在机缘巧合之下诞生了！
 
-注：C语言诞生后，D.M.Ritchie和他的同事肯迫不及待地用C语言完全重写了UNIX。此时，编程的乐趣已经完全使他们忘记了最开始那个可怜的游戏，两人一门心思地投入到了UNIX和C语言的开发之中。从此以后，UNIX和C语言相互扶持、共同成长，相辅相成到了今天。[19]
+注：C语言诞生后，D.M.Ritchie和他的同事肯迫不及待地用C语言完全重写了UNIX。此时，编程的乐趣已经完全使他们忘记了最开始那个可怜的游戏，两人一门心思地投入到了UNIX和C语言的开发之中。从此以后，UNIX和C语言相互扶持、共同成长，相辅相成到了今天。[1]
 
 
 ![Markdown Screenshot](https://img-blog.csdn.net/20160501115739059)
@@ -41,7 +41,7 @@ Ken Thompson（left）和D.M.Ritchie（right）
 自1925年以来，贝尔实验室一共获得了两万五千多项专利，诞生过9位诺贝尔奖得主。这样登峰造极的履历也让其他机构望尘莫及。在20世纪二三十年代，贝尔实验室的研究人员发明了晶体管，电荷耦合元件，光电池等。在通讯领域中大名鼎鼎的Shannon的成果也有部分是基于Harry Nyquist和Hartley从前在贝尔实验室中的研究。
 
 
-这个实验室在2016年被诺基亚收购，就是那个被我们戏称手机可以当板砖使用的诺基亚公司。然而就像诺基亚手机一样，贝尔实验室现在也慢慢失去了原本辉煌的本色，在历史的尘埃中渐渐没落。但在20世纪，那个群星璀璨的年代，那个拥有爱因斯坦、薛定谔、普朗克等等杰出科学家的年代，那个被炮火硝烟笼罩的年代，贝尔实验室无疑是这个星球上最伟大的实验室。[3]
+这个实验室在2016年被诺基亚收购，就是那个被我们戏称手机可以当板砖使用的诺基亚公司。然而就像诺基亚手机一样，贝尔实验室现在也慢慢失去了原本辉煌的本色，在历史的尘埃中渐渐没落。但在20世纪，那个群星璀璨的年代，那个拥有爱因斯坦、薛定谔、普朗克等等杰出科学家的年代，那个被炮火硝烟笼罩的年代，贝尔实验室无疑是这个星球上最伟大的实验室。[2]
 
 **没有之一。**
 
@@ -64,9 +64,9 @@ Ken Thompson（left）和D.M.Ritchie（right）
 
 例如1989年，ANSI发布了第一个完整的C语言标准C89。这个标准奠定了C语言一贯的指导原则：相信程序员，不要妨碍他们做事。与K&R相比，C89主要包括了以下修改：加入关键字const、void、signed；增加了函数原型；允许将结构作为参数传递给函数等。
 
-1995年，C语言又进行了一次修订，这次修订后来成为了1999年发布的 ISO/IEC 9899:1999标准，也就是通常说的C99。这次的改动主要包括：加入了内联函数inline、支持longl long int、新增了布尔数据类型、加入了我们现在常用的单行注释\\\\、允许在for循环内部进行变量声明。但是各个公司对支持C99表现出了不同的兴趣，比如当GCC支持大部分C99特性时，微软却对此不甚积极。我们写C语言代码时也可以发现，这些特性中只有一部分被普遍地支持了，而另一部分仍然被视为非法的。  [11]
+1995年，C语言又进行了一次修订，这次修订后来成为了1999年发布的 ISO/IEC 9899:1999标准，也就是通常说的C99。这次的改动主要包括：加入了内联函数inline、支持longl long int、新增了布尔数据类型、加入了我们现在常用的单行注释\\\\、允许在for循环内部进行变量声明。但是各个公司对支持C99表现出了不同的兴趣，比如当GCC支持大部分C99特性时，微软却对此不甚积极。我们写C语言代码时也可以发现，这些特性中只有一部分被普遍地支持了，而另一部分仍然被视为非法的。  [3]
 
-2007年，ISO又开始了新一轮的C语言标准修订，由于一开始没人知道他们什么时候能修订完，所以这个版本最初被称为C1X。到了2011年，修订工作完成，这一版本也定名为C11。这次的修订主要改动包括：删除了gets()函数，以gets_s()代替；支持多线程；支持Unicode，但仅限于UTF-8，依然不支持UTF-16；加入原子操作；改进与C++的兼容性。但各方反响依然不甚积极，这可能也是由于C11标准的最终定稿草案是免费开放的，但是C11正式标准文件是需要付费的。[12]
+2007年，ISO又开始了新一轮的C语言标准修订，由于一开始没人知道他们什么时候能修订完，所以这个版本最初被称为C1X。到了2011年，修订工作完成，这一版本也定名为C11。这次的修订主要改动包括：删除了gets()函数，以gets_s()代替；支持多线程；支持Unicode，但仅限于UTF-8，依然不支持UTF-16；加入原子操作；改进与C++的兼容性。但各方反响依然不甚积极，这可能也是由于C11标准的最终定稿草案是免费开放的，但是C11正式标准文件是需要付费的。[4]
 
 2018年，C18发布，这是目前的最新C语言版本。它没有加入什么新的内容，只是修正了C11中的一些缺陷。到目前为止，广泛使用的C语言版本仍然是ANSI/ISO C，即C89。
 
@@ -74,7 +74,7 @@ C语言的成功远远超出了所有人的预期，在它成功的原因中Unix
 
 在实际用途中，它总是被用来同一个大型操作系统交互，并作为工具来创建更大工具。这如同葛朗台般吝啬的行为使得C覆盖了多数程序员的基本需要，但又不试图提供太多东西，反而更加激发了人们在使用它时的创造性。
 
-从第一版的白皮书，到后来的多版修正和编辑，不论C语言经受何种变化，对于C语言本身而言，比起那些同样流行的语言如Pascal和Fortra，它仍保持着显著的稳定性和一致性。从C88，C99到C11，这些标准既保证了C语言的活力，又让它不在时代的浪潮中消逝。那些随着指尖跳跃而出现在屏幕上的字符，从简易的命令行，到色彩亮丽功能齐全的IDE，编程语言的发展一点点、一步步地推动了时代的变迁，在历史曲折的车轮下，留下了难以忘怀的印记。[18]
+从第一版的白皮书，到后来的多版修正和编辑，不论C语言经受何种变化，对于C语言本身而言，比起那些同样流行的语言如Pascal和Fortra，它仍保持着显著的稳定性和一致性。从C88，C99到C11，这些标准既保证了C语言的活力，又让它不在时代的浪潮中消逝。那些随着指尖跳跃而出现在屏幕上的字符，从简易的命令行，到色彩亮丽功能齐全的IDE，编程语言的发展一点点、一步步地推动了时代的变迁，在历史曲折的车轮下，留下了难以忘怀的印记。[5]
 
 
 ##		chapter 3: C语言的继任者
@@ -83,7 +83,7 @@ C语言被发明以后，有许多使用者觉得它还不够完美，于是在C
 
 例如在20世纪80年代，同样是贝尔实验室的Bjarne Stroustrup 博士觉得C语言在编译方面还不够完美，于是把自己能想到的功能都加了进去，并将这门新语言命名为C++。从此之后，比起C，程序员编程的时候都更愿意采用C++，因为这样，他们工作时看漫画和视频就有借口可找了。
 
-C++起初被命名为"new C"，之后被称为"C with Classes",C++这个名字是Rick Mascitti于1983年中所建议的，并于1983年12月首次使用。C++最后的名字灵感来自C语言中的“++”操作符（其对变量的值进行递增），而且在共同的命名约定中，使用“+”以表示增强的程序。Rick Mascitti在1992年被非正式地问起名字的由来，他表示这是在半开玩笑中说出的。他从没想过C++会成为这门语言的正式名字。有一个关于C++名字的笑话，当你使用后缀++时，附加只发生在运算之后（因此，它应该是++C，而不是C++，这个笑话是说时下某些程序员还在以使用C的方式使用C++，这通常被一些权威著作认为是不正确的）[15]。
+C++起初被命名为"new C"，之后被称为"C with Classes",C++这个名字是Rick Mascitti于1983年中所建议的，并于1983年12月首次使用。C++最后的名字灵感来自C语言中的“++”操作符（其对变量的值进行递增），而且在共同的命名约定中，使用“+”以表示增强的程序。Rick Mascitti在1992年被非正式地问起名字的由来，他表示这是在半开玩笑中说出的。他从没想过C++会成为这门语言的正式名字。有一个关于C++名字的笑话，当你使用后缀++时，附加只发生在运算之后（因此，它应该是++C，而不是C++，这个笑话是说时下某些程序员还在以使用C的方式使用C++，这通常被一些权威著作认为是不正确的）[6]。
 
 1986年
 
@@ -104,15 +104,15 @@ Ken Thompson和Rob Pike决定开发一种像C这样的语言，但是编译速�
 
 2010年
 
-Graydon Hoare也想要像C这样的语言，于是开发出了Rust。Rust集齐了其他动态语言的重要特性。比如不需要管理内存，比如不会出现Null指针等，但Graydon想要更炫的东西，于是开始为苹果开发Swift。[14]
+Graydon Hoare也想要像C这样的语言，于是开发出了Rust。Rust集齐了其他动态语言的重要特性。比如不需要管理内存，比如不会出现Null指针等，但Graydon想要更炫的东西，于是开始为苹果开发Swift。[7]
 
 一个成功的作品才会被无数后继者模仿研究，C语言能够拥有如此多的继任者，其实也从侧面证实了C的成功。
 
 ##	chapter 4: 有关Dennis MacAlistair Ritchie的一点趣事
 
-Ritchie为人所知，主要是因为他创造了C语言，作为关键开发者参与了Unix操作系统的开发，并且与Brain共同撰写了《The C Programming Language》——这本书所树立的标准叫做“K&R C”，其中“K”指Ken，而“R”指的就是Ritchie。开发Unix时，Ritchie的一个重要贡献是把Unix移植到不同的机器和平台之上。在Unix领域二人非常有影响力，以至于后来开发Research Unix时Malcolm Douglas McIlroy写道“你可以安全地把Ritchie和Ken的名字放到几乎所有未经其他人署名的地方。”[16]
+Ritchie为人所知，主要是因为他创造了C语言，作为关键开发者参与了Unix操作系统的开发，并且与Brain共同撰写了《The C Programming Language》——这本书所树立的标准叫做“K&R C”，其中“K”指Ken，而“R”指的就是Ritchie。开发Unix时，Ritchie的一个重要贡献是把Unix移植到不同的机器和平台之上。在Unix领域二人非常有影响力，以至于后来开发Research Unix时Malcolm Douglas McIlroy写道“你可以安全地把Ritchie和Ken的名字放到几乎所有未经其他人署名的地方。”[8]
 
-当有人问Ritchie是什么启发他如此设计C语言时，Ritchie只是回答说“看来是件值得做的事”（"looked like a good thing to do"）。他说任何人在同一地方、同一时间也会像他那样做的。但是许多人认为这只是Ritchie的谦言，例如Ritchie在贝尔实验室的同事、C++的创造者和设计师Bjarne Stroustrup 曾说：“假如Ritchie决定在那十年里将他的精力花费在稀奇古怪的数学上，那么Unix将胎死腹中”。[16]
+当有人问Ritchie是什么启发他如此设计C语言时，Ritchie只是回答说“看来是件值得做的事”（"looked like a good thing to do"）。他说任何人在同一地方、同一时间也会像他那样做的。但是许多人认为这只是Ritchie的谦言，例如Ritchie在贝尔实验室的同事、C++的创造者和设计师Bjarne Stroustrup 曾说：“假如Ritchie决定在那十年里将他的精力花费在稀奇古怪的数学上，那么Unix将胎死腹中”。[8]
 
 由于C语言和Unix系统两项成就，Ritchie成为许多编程爱好者膜拜的对象。同时由于C语言的简洁和高效，也使得它成为入侵他人电脑的利器之一。因此Ritchie被诸多电脑黑客尊为导师，虽然Ritchie本人并不认可这一说法。
 
@@ -124,11 +124,11 @@ Ritchie为人所知，主要是因为他创造了C语言，作为关键开发者
 
 直到很多年后，Ken和Ritchie才道出其中的原委，原来代码里确实存在后门，不过并不在Unix代码中，而是藏在编译Unix的编译器里。
 
-真正的黑客，就是搞底层入侵，让人根本防不胜防。[17]
+真正的黑客，就是搞底层入侵，让人根本防不胜防。[9]
 
 Ritchie在 1983年获得图灵奖，因为他为黑客圈做的“贡献”，黑客圈子通常称他为「dmr」。
 
-但尽管Ritchie如此成功，他却从未正式获得博士学位。尽管1968年，Ritchie在Patrick C. Fischer的指导下，在哈佛大学完成了他的博士论文《Program Structure and Computational Complexity》。[13]。  
+但尽管Ritchie如此成功，他却从未正式获得博士学位。尽管1968年，Ritchie在Patrick C. Fischer的指导下，在哈佛大学完成了他的博士论文《Program Structure and Computational Complexity》。[10]。  
 
 那个年代社交网络还很不完善，再加上Ritchie一直没有结婚，平时也不怎么爱出入公众场合，所以从他在退休之后就一直没有太多的资料可考。就连他的准确去世时间，我们都不得而知。
 
@@ -136,7 +136,7 @@ Ritchie在 1983年获得图灵奖，因为他为黑客圈做的“贡献”，�
 
 在里奇去世后的每年，计算机爱好者们都会以特有的方式纪念这位编程语言的重要奠基人。许多网友的发帖中没有片言只字，仅仅留下一个分号“;”。
 
-因为在C语言中，英文分号标志着一行指令语句的结束，大家通过这种沉默而温柔的方式来悼念“C语言之父”。而随着他的离去，由美国著名计算机专家Dennis Ritchie所引领的时代也悄然远去了。[17]
+因为在C语言中，英文分号标志着一行指令语句的结束，大家通过这种沉默而温柔的方式来悼念“C语言之父”。而随着他的离去，由美国著名计算机专家Dennis Ritchie所引领的时代也悄然远去了。[9]
 
 
 ##	chapter 5：C开源项目
@@ -148,46 +148,52 @@ GNU编译器套装（英语：GNU Compiler Collection，缩写为GCC），指一
 
 许多操作系统，包括许多类Unix系统，如Linux及BSD家族都采用GCC作为标准编译器。
 
-GCC原本用C开发，后来因为LLVM、Clang的崛起，它更快地将开发语言转换为C++。许多C的爱好者在对C++一知半解的情况下主观认定C++的性能一定会输给C，但是Ian Lance Taylor给出了不同的意见，并表明C++不但性能不输给C，而且能设计出更好，更容易维护的程序[4]。
+GCC原本用C开发，后来因为LLVM、Clang的崛起，它更快地将开发语言转换为C++。许多C的爱好者在对C++一知半解的情况下主观认定C++的性能一定会输给C，但是Ian Lance Taylor给出了不同的意见，并表明C++不但性能不输给C，而且能设计出更好，更容易维护的程序[11]。
 #### Clang
-是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端。它采用了LLVM作为其后端，而且由LLVM2.6开始，一起发布新版本。它的目标是提供一个GNU编译器套装（GCC）的替代品，支持了GNU编译器大多数的编译设置以及非官方语言的扩展。作者是克里斯·拉特纳（Chris Lattner），在苹果公司的赞助支持下进行开发，而源代码许可是使用类BSD的伊利诺伊大学厄巴纳-香槟分校开源码许可。Clang项目包括Clang前端和Clang静态分析器等[5]。
+是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端。它采用了LLVM作为其后端，而且由LLVM2.6开始，一起发布新版本。它的目标是提供一个GNU编译器套装（GCC）的替代品，支持了GNU编译器大多数的编译设置以及非官方语言的扩展。作者是克里斯·拉特纳（Chris Lattner），在苹果公司的赞助支持下进行开发，而源代码许可是使用类BSD的伊利诺伊大学厄巴纳-香槟分校开源码许可。Clang项目包括Clang前端和Clang静态分析器等[12]。
 #### Small-c
 Small-c既是C编程语言的一个子集，适用于资源有限的微型计算机和嵌入式系统，也是该子集的一个实现。最初作为1970年代末和1980年代初可用的微型计算机系统的早期编译器是很有价值的，作为一个简单到足以用于教学目的的例子，这个实现也很有用。  
 
 最初的编译器是Ron Cain用Small-C为Intel 8080编写的，发表在1980年5月的*Dr. Dobb's Journal of Computer Calisthenics & Orthodontia*上。James E. Hendrix改进并扩展了最初的编译器，并编写了Small-c手册。Ron使用John Bass提供的Small-c开发的账号在SRI PDP 11/45 Unix系统上启动了Small-c。提供的源代码是在管理权限下发布到公共域的。Small-c对于微型计算机非常重要，这在某种程度上类似于GCC对于大型计算机的重要性
 
-Small-c是一个可重定向编译器。移植Small-c只需要为目标处理器重写后端代码生成器和库到操作系统接口调用。[6]
+Small-c是一个可重定向编译器。移植Small-c只需要为目标处理器重写后端代码生成器和库到操作系统接口调用。[13]
 #### Intel C++ Compiler
-Intel C++ Compiler，也称为icc或icl，是一组来自Intel的C和C++编译器，适用于Windows、Mac、Linux、FreeBSD和基于Intel的Android设备[7]。  
+Intel C++ Compiler，也称为icc或icl，是一组来自Intel的C和C++编译器，适用于Windows、Mac、Linux、FreeBSD和基于Intel的Android设备[14]。  
 
 ### C语言库
 #### libc
 如ANSI C标准中所述，C标准库libc是C编程语言的标准库。它是与C库POSIX规范同时开发的，后者是它的超集。由于ANSI C被国际标准化组织采用，C标准库也被称为ISO C库。  
-C标准库为诸如字符串处理、数学计算、输入/输出处理、内存管理和其他操作系统服务等任务提供宏、类型定义和函数[8]。
+C标准库为诸如字符串处理、数学计算、输入/输出处理、内存管理和其他操作系统服务等任务提供宏、类型定义和函数[15]。
 #### glibc
 glibc(GNU C Library)项目为GNU系统、GNU/Linux系统,以及许多其他使用Linux作为内核的系统提供了核心库。这些库提供了关键的API，包括ISO C11、POSIX.1-2008、BSD、针对于操作系统的API等等。这些API包括诸如open、read、write、malloc、printf、getaddrinfo、dlopen、pthread_create、crypt、login、exit等。  
-GNU C库被设计成一个向后兼容的、可移植的、高性能的ISO C库。它旨在遵循所有相关标准，包括ISO C11、POSIX.1-2008和IEEE 754-2008[9]。
+GNU C库被设计成一个向后兼容的、可移植的、高性能的ISO C库。它旨在遵循所有相关标准，包括ISO C11、POSIX.1-2008和IEEE 754-2008[16]。
 #### glib
 GLib是一个跨平台的、用C语言编写的五个底层库的集合，为GNOME所使用。GLib起初是GTK+的一部分，但到了GTK+第二版，开发者决定把跟图形界面无关的代码分开，这些代码于是就组装成了GLib。  
-因为GLib具有跨平台特性，所以用它编写的程序可以无需进行大幅度修改就可以在其他程序上编译和运行[10]。
+因为GLib具有跨平台特性，所以用它编写的程序可以无需进行大幅度修改就可以在其他程序上编译和运行[17]。
 
 ### Reference   
-[1]http://wikipedia.org   
-[2]http://blog.csdn.net  
-[3]https://zh.wikipedia.org/zh-hans/贝尔实验室 历史与成就部分  
-[4]https://zh.wikipedia.org/wiki/GNU_Compiler_Collection  
-[5]https://zh.wikipedia.org/wiki/Clang  
-[6]https://en.wikipedia.org/wiki/Small-C  
-[7]https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler  
-[8]https://en.wikipedia.org/wiki/C_standard_library  
-[9]https://www.gnu.org/software/libc/  
-[10]https://zh.wikipedia.org/wiki/GLib  
-[11]https://blog.csdn.net/lengye7/article/details/80255833   
-[12]https://blog.csdn.net/qq_41070844/article/details/100115504   
-[13]https://en.wikipedia.org/wiki/Dennis_Ritchie#Personal_life_and_career  
-[14]https://medium.com/commitlog/a-brief-totally-accurate-history-of-programming-languages-cd93ec806124
-[15]http://blog.sina.com.cn/s/blog_ed323a6a0101rzyd.html  #名称由来
-[16]https://zh.wikipedia.org/wiki/丹尼斯·里奇 #生平
-[17]https://segmentfault.com/a/1190000020242824
-[18]http://www.bell-labs.com/usr/dmr/www/chist.html
-[19]https://blog.csdn.net/MillionBenjamin/article/details/78804349
+
+[1]https://blog.csdn.net/MillionBenjamin/article/details/78804349
+[2]https://zh.wikipedia.org/zh-hans/贝尔实验室 历史与成就部分  
+[3]https://blog.csdn.net/lengye7/article/details/80255833  
+[4]https://blog.csdn.net/qq_41070844/article/details/100115504  
+[5]http://www.bell-labs.com/usr/dmr/www/chist.html 
+[6]http://blog.sina.com.cn/s/blog_ed323a6a0101rzyd.html  #名称由来
+[7]https://medium.com/commitlog/a-brief-totally-accurate-history-of-programming-languages-cd93ec806124
+[8]https://zh.wikipedia.org/wiki/丹尼斯·里奇 #生平
+[9]https://segmentfault.com/a/1190000020242824
+[10]https://en.wikipedia.org/wiki/Dennis_Ritchie#Personal_life_and_career 
+[11]https://zh.wikipedia.org/wiki/GNU_Compiler_Collection  
+[12]https://zh.wikipedia.org/wiki/Clang  
+[13]https://en.wikipedia.org/wiki/Small-C  
+[14]https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler  
+[15]https://en.wikipedia.org/wiki/C_standard_library  
+[16]https://www.gnu.org/software/libc/  
+[17]https://zh.wikipedia.org/wiki/GLib  
+ 
+ 
+
+
+
+
+
