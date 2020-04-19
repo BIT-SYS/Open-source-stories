@@ -3,10 +3,11 @@ A collection of interesting open source stories.
 
 # 目录
 * [前言](1-preface.md)
+* [C](2-C.md)
 * [Ruby](2-Ruby.md)
 * Python
 * Java
-* C/C++
+* C++
 * Ruby
 * GCC
 * LLVM
