@@ -55,7 +55,7 @@ SUN的全称叫做Stanford University Network，是从斯坦福大学诞生出�
  
 通过Applet，越来越多的程序员看到了Java这门语言，在了解Java国制度(Java特性)后，很多越来越无法忍受C语言的程序员，加入了Java国，成为了Java程序员。Java国也崛地而起，迅速发展。  
 
-Java火了，火到当时的C国的商业巨头微软、Oracle都来到Java国找Java国王谈合作。  
+Java火了，火到当时的C国的商业巨头微软、Oracle都来到Java国找Java国王（Sun公司）谈合作。  
 
 像比尔盖茨这样的巨头能来Java国谈合作，Java国国王当然喜出望外，十分欢迎，毕竟Java国国王是一个十分开放，乐于合作交流的国王，深得民心。对于前来合作的客人都说，只要你喜欢，就拿去用，通通免费开放，欢迎大家使用。但比尔盖茨有些贪婪，他回到C国后，试图将Java与自家操作系统捆绑起来赚钱，这将使Java失去跨平台的优势，变得不可移植。  
 
@@ -68,11 +68,16 @@ Java国国王得知后非常愤怒，我们的Java免费开放，供有需要的
 
 阳光总在风雨后。
 
-失之东隅收之桑榆，J2EE正赶上了互联网大发展的好机遇。大家发现，J2SE简直是为服务器量身定制的，强大、健壮、安全、简单、跨平台！Java国授权BEA公司第一个使用J2EE许可证，推出了WebLogic，这个后来被称为中间件的东西把程序员从繁杂的事务、权限管理等中解救出来，使程序员能够专注于业务开发，立刻捕获了大批程序员的心。  
+失之东隅收之桑榆，J2EE正赶上了互联网大发展的好机遇。大家发现，J2EE简直是为服务器量身定制的，强大、健壮、安全、简单、跨平台！Java国授权BEA公司第一个使用J2EE许可证，推出了WebLogic，这个后来被称为中间件的东西把程序员从繁杂的事务、权限管理等中解救出来，使程序员能够专注于业务开发，立刻捕获了大批程序员的心。  
 
 很快，Java国的Java程序员就达到了数百万之众。众程序员基于Java开发了大量的平台、系统、应用。  
 
-势不可挡的Java从此站起来了[3]。
+势不可挡的Java从此站起来了[3]。  
+
+之后Java国一直稳定的发展着。Java国王将JDK（ Software Development Kit）和JRE（ Runtime Environment）分开，二者的区别主要在于，JRE中并没有包含Java编译器。之前提到过，Java国王是一个非常乐于开放交流的国王，所以没有满足于仅供大家免费使用Java，于是开启了漫漫开源之路。Java国王于2006年先后宣布开源Java和Java核心平台，包括Java HotSpot虚拟机和编译器（使用GNU GPL协议），这之后还承诺将陆续开源JDK其他可以使用GPL协议开源的部分，守信的Java国王也履行了自己的承诺。到 2008年5月，OpenJDK 6出现的时候，只有不到1%的部分没有开源。渐渐地，阻碍开源的每个组件要不自己变成了免费的开源软件，要不就被替换掉了。至2010年12月，JDK终于实现了完全开源。  
+
+Java版本号的变化仿佛也是个谜，从1996年的J2SE1.0到2002年的J2SE1.4都以1.x格式命名。2004年，为了凸显下一版本的重要性，将其命名为J2SE5.0。后面的版本除了延续x.0的格式，还将“J2SE”改为了“Java SE”。时至今日，最新版本已经更新到Java SE 14（发布于2020年3月）[6]。
+
 
 ## chapter 3：James Gosling
 
@@ -104,6 +109,7 @@ Java每年为无数企业创造了大量的利润，作为一门开源语言，�
 
 [1]https://blog.csdn.net/Qizhi_Hu/article/details/105238375  
 [2]https://www.chinaz.com/news/2020/0106/1089437.shtml  
-[3]https://www.lagou.com/lgeduarticle/56837.html
+[3]https://www.lagou.com/lgeduarticle/56837.html  
 [4]https://zh.wikipedia.org/wiki/詹姆斯·高斯林  
-[5]http://news.mydrivers.com1/501/501892.htm
+[5]http://news.mydrivers.com1/501/501892.htm  
+[6]https://zh.wikipedia.org/wiki/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2
