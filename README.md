@@ -4,9 +4,9 @@ A collection of interesting open source stories.
 # 目录
 * [前言](1-preface.md)
 * [C语言：一颗仍未黯淡的昨日明星](2-C.md)
-* [Ruby](2-Ruby.md)
+* [Java](3-Java.md)
 * Python
-* Java
+* [Ruby](2-Ruby.md)
 * C++
 * Ruby
 * GCC
@@ -23,4 +23,3 @@ A collection of interesting open source stories.
 * objdump与readelf
 * MediaWiki
 * Infer
-
