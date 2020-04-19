@@ -4,7 +4,7 @@ A collection of interesting open source stories.
 # 目录
 * [前言](1-preface.md)
 * [C语言：一颗仍未黯淡的昨日明星](2-C.md)
-* [Java](3-Java.md)
+* [Java](Java.md)
 * Python
 * [Ruby](2-Ruby.md)
 * C++
