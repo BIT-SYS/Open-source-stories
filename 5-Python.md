@@ -65,4 +65,4 @@
 
 [1]https://blog.csdn.net/laagyzz/article/details/78802403
 [2]https://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html
-[3]Bruce Eckel是MindView公司的总裁，C++标准委员会拥有表决权的成员之一，拥有应用物理学学士和计算机工程硕士学位。Bruce Eckel从1984年至今，已经发表了超过150篇计算机技术文章，出版了6本书.他的《Thinking in C++》一本书在1995年被评为“最佳软件开发图书”，《Thinking in Java》被评为1999年Java World“最受读者欢迎图书”，并且赢得了编辑首选图书奖。
+[3]https://baike.baidu.com/item/Bruce%20Eckel/3646582?fr=aladdin
