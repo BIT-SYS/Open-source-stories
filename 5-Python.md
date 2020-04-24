@@ -9,7 +9,7 @@
 
 <img src="https://pic3.zhimg.com/80/2ca0db56191f28abcccdbd7f2baf23dd_1440w.jpg" width="250">
 
-这句Python创始人印在T恤上的话被无数喜爱Python的程序员奉为至理名言。随着目前人工智能越来越火，Python凭借着扩展性强、第三方库丰富和免费开源等特点在机器学习、数据挖掘、人工智能等领域独领风骚。在前不久电气和电子工程师协会( IEEE）发布的顶级编程语言交互排行榜中，Python更是超越Java高居首位。
+这句Bruce Eckel[3]印在T恤上的话被无数喜爱Python的程序员奉为至理名言。随着目前人工智能越来越火，Python凭借着扩展性强、第三方库丰富和免费开源等特点在机器学习、数据挖掘、人工智能等领域独领风骚。在前不久电气和电子工程师协会( IEEE）发布的顶级编程语言交互排行榜中，Python更是超越Java高居首位。
 
 是什么让Python如此受到程序员们的喜爱呢？
 
@@ -65,3 +65,4 @@
 
 [1]https://blog.csdn.net/laagyzz/article/details/78802403
 [2]https://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html
+[3]Bruce Eckel是MindView公司的总裁，C++标准委员会拥有表决权的成员之一，拥有应用物理学学士和计算机工程硕士学位。Bruce Eckel从1984年至今，已经发表了超过150篇计算机技术文章，出版了6本书.他的《Thinking in C++》一本书在1995年被评为“最佳软件开发图书”，《Thinking in Java》被评为1999年Java World“最受读者欢迎图书”，并且赢得了编辑首选图书奖。
