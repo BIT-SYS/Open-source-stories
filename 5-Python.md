@@ -46,6 +46,8 @@
 
 最初的 Python 完全由吉多本人开发。然而此后Guido同事也迅速爱上了这门新语言。他们不断反馈使用意见，并参与到 Python 的改进中。于是吉多和一些同事构成 Python 的核心团队，他们将自己大部分的业余时间用于hack Python（也包括工作时间，因为他们将 Python 用于工作）。
 
+<img src="https://images0.cnblogs.com/blog/92071/201305/06175655-b9ab3a0b656647f0b44ebfdf5f297ae6.jpg" width=150>
+
 由于Python实在是太好用了！很快，Python就拓展到了他们的研究所之外。Python将许多机器层面上的细节隐藏，交给编译器处理，并凸显出逻辑层面的编程思考。这使得程序员可以花更多的时间用于思考程序的逻辑，而不是具体的实现细节。这一特征吸引了广大的程序员。Python开始迅速流行起来。
 
 此外，还有两点外界因素使 Python 得到迅速发展。一是硬件性能的提高，当时已进入90年代初，个人计算机开始进入普通家庭，程序员们开始关注计算机和语言的易用性。相比它的兄弟ABC语言因为硬件的性能限制而失败，Python 可以说是生逢其时，正好有机会可以大展拳脚。二是互联网的发展，当时许多程序员以及资深计算机用户已经开始频繁使用 Internet 进行交流。一种新的软件开发模式开始流行：开源。
@@ -110,4 +112,3 @@ IronPython完全是用c#编写的，尽管它的一些代码是由用Python编�
 [8]https://en.wikipedia.org/wiki/IronPython  
 [9]https://en.wikipedia.org/wiki/Jim_Hugunin  
 [10]https://www.cr173.com/html/7617_1.html  
-
