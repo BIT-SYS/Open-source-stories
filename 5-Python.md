@@ -79,14 +79,31 @@ python3相对于python2的主要区别包括：
 但python3仍在茁壮成长。自2008的python3.0开始，每一到两年更新一个版本，并一直保持小版本的及时更新。python3的开发者们在这上面也展示出了饱满的热情，每次的版本更新，除了修补发现的问题，还会增加一些新功能（比如3.8的海象运算符）。到本文写作时（2020.4.25），最新的python3版本是3.8.2，同时3.9正在开发中。
 
 
+##chapter 4：IronPython和它的创始人吉姆
+IronPython是一个与.NET框架紧密集成的Python编程语言的一个开源实现。IronPython能够使用.NET框架和Python库，并且其他.NET语言可以很容易的使用Python代码。IronPython是.NET框架的一个优秀补充，为Python开发人员提供了.NET框架的强大功能。现有的.NET开发人员也可以使用IronPython作为一种快速且富有表现力的脚本语言，用于嵌入、测试或从头开始编写新的应用程序[7]。  
 
+IronPython是在动态语言运行时(DLR)之上实现的，DLR是一个运行在公共语言基础结构之上的库，它为动态语言提供动态类型和动态方法分派等功能。
+
+IronPython完全是用c#编写的，尽管它的一些代码是由用Python编写的代码生成器自动生成的。
+
+吉姆（Jim Hugunin）创建了这个项目，并且直到2006年9月5日发布的1.0版本，他都一直积极参与其中[8]。  
+![Jim Hugunin headshot](https://github.com/BIT-SYS/Open-source-stories/raw/master/img/Jim_hugunin_headshot.jpg)  
+
+2010年，微软放弃对IronPython的投资，吉姆离开微软加入了谷歌。在吉姆的个人网站中，他表示“将微软对于IronPython的决定是我离开微软的催化剂，但不能算是原因”。他还表示，在微软有一个“开源代码和社区保持健康的关系”是“可能的”，但“感觉就像把方钉入圆孔”。  
+
+根据领英的资料，吉姆于2013年5月离开了谷歌。  
+
+2017年12月，吉姆发布了一个名为Artful Physics的布料模拟器测试版。然而，Patreon和艺术物理社区的帖子表明，他从2018年1月起就缺席了[9]。
 
 
 ## Reference
 
-[1]https://blog.csdn.net/laagyzz/article/details/78802403
-[2]https://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html
-[3]https://baike.baidu.com/item/Bruce%20Eckel/3646582?fr=aladdin
-[4]https://www.cnblogs.com/xincai/archive/2017/06/21/7058551.html
-[5]https://www.runoob.com/python/python-2x-3x.html
-[6]https://mp.weixin.qq.com/s/ql_lV9xzRFtRezcRGTpdqg
+[1]https://blog.csdn.net/laagyzz/article/details/78802403  
+[2]https://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html  
+[3]https://baike.baidu.com/item/Bruce%20Eckel/3646582?fr=aladdin  
+[4]https://www.cnblogs.com/xincai/archive/2017/06/21/7058551.html  
+[5]https://www.runoob.com/python/python-2x-3x.html  
+[6]https://mp.weixin.qq.com/s/ql_lV9xzRFtRezcRGTpdqg  
+[7]https://ironpython.net/  
+[8]https://en.wikipedia.org/wiki/IronPython  
+[9]https://en.wikipedia.org/wiki/Jim_Hugunin
