@@ -48,11 +48,32 @@ Haskell是一门惰性语言，顾名思义，当你在使用Haskell时，除非
 
 
 ## chapter 3： Haskell的编译环境
+
+Haskell是一个公开的语言定义，所以任何人都可以编写它的实现（implement），所以Haskell的实现版本很多，甚至使得Haskell少见地具有编译与解释两种执行方式，这也被认为是Haskell的一大优点。Haskell有很多编译器与编译器，它们都可以在 www.haskell.org 上得到。解释器的优点是直观，程序编写好之后可以直接运行，便于学习与开发；编译器则可以将程序编译为可以独立执行的文件。[4]
+
+目前，比较主流的Haskell实现是GHC。下面主要对GHC进行介绍。
+
+GHC（Glasgow Haskell Compiler）是当前最先进的Haskell编译与交互环境，包括一个编译器ghc与类似python交互环境的解释器ghci。这一特点给使用者带来了极大的方便，想象一下你在编译之前可以直接通过解释执行的方式来进行调试，是不是十分诱人。GHC主要具有以下特点：
++ GHC支持全部的Haskell 2010语法，并且加入了很多扩展。
++ GHC可以在多个平台上运行，包括Windows、Mac、Linux以及大多数Unix，甚至还包括一些非x86的处理器架构
++ 具有代码优化功能。
++ GHC具有两种编译Haskell代码的方式。其一是直接将Haskell代码转化为机器代码，其二是使用LLVM作为编译的后端。GHC也可以生成C语言的中间代码，从而带来跨平台的良好移植性。交互式环境可以将Haskell编译成二进制代码，并且支持二进制代码与Haskell代码的混合执行。
++ 支持大量的库，这些库可以从 Hackage 得到。[5]
+
+目前（2020.5.1），最新的GHC版本是2020.3.24发布的GHC8.10.1。
+
+另一个使用比较多的Haskell实现是hugs。它遵循的是Haskell 98标准，只具有解释功能，不具有编译的功能，也没有丰富的库函数，所以很轻巧，适合入门使用。[6]
+
 ## chapter 4：计算机大师Dijkstra谈Haskell
 
 因为Haskell实在太难理解，许多学生对将Haskell作为计算机入门课程表示了不满，因此德州大学决定将计算机入门课的Haskell改为Java。
 
-2001年，出生于荷兰的计算机大师、 图灵奖获得者Edsger W. Dijkstra给德州大学预算委员会写信，力劝不要将计算机入门课程改为Java。不幸的是，学校最终还是用Java课程替换了Haskell。相关联的，麻省理工的计算机程序结构和分析课程中的Scheme语言也被Python语言替换掉。
+2001年，出生于荷兰的计算机大师、 图灵奖获得者Edsger W. Dijkstra给德州大学预算委员会写信，力劝不要将计算机入门课程改为Java。
+
+<img src="https://img.it610.com/image/info5/a44660b192184e738bc0068836b8df9b.jpg" width="180">  
+Edsger W. Dijkstra
+
+不幸的是，学校最终还是用Java课程替换了Haskell。相关联的，麻省理工的计算机程序结构和分析课程中的Scheme语言也被Python语言替换掉。
 
 下面是这封信的翻译版，Dijkstra在里面浅谈了他认为学习Haskell的目的与意义，笔者认为这对于帮助我们深入理解Haskell很有好处。
 
@@ -85,3 +106,9 @@ Haskell是一门惰性语言，顾名思义，当你在使用Haskell时，除非
 [2]https://spin.atomicobject.com/2013/03/05/why-haskell/
 
 [3]https://chrisdone.com/posts/dijkstra-haskell-java/
+
+[4]https://blog.csdn.net/comeonmyideal/article/details/6689574
+
+[5]https://www.haskell.org/ghc/
+
+[6]https://yq.aliyun.com/articles/91036
