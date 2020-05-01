@@ -45,7 +45,17 @@ Haskell是一门惰性语言，顾名思义，当你在使用Haskell时，除非
 
 
 ## chapter 2： Haskell的版本迭代
-
+### Haskell 1.0 to 1.4
+支持类型安全操作符重载的类型类，最早是由Philip Wadler和Stephen Blott为标准ML提出的，但在1987年Haskell的1.0版中首次实现。  
+1990年定义了Haskell的第一个版本（“Haskell 1.0”）。委员会的努力促使产生了一个系列的语言定义（1.0，1.1,1.2,1.3,1.4）。
+### Haskell 98  
+在1997年后期，该系列以Haskell 98到达顶峰，旨在为教学指定一个稳定的、最小的、可移植的语言版本和一个附带的标准库，并作为将来扩展的基础。  
+在1999年2月，Haskell 98语言标准最初以Haskell 98报告的形式发布。2003年1月，修订版以*Haskell 98语言与库：修订版报告*的形式出版。  
+Haskell语言继续快速发展，同时Glasgow Haskell编译器(GHC)实现代表了当前*事实上的标准*[7]。
+### Haskell Prime
+2006年早期，开始了定义Haskell 98标准后续的进程，非正式命名为Haskell Prime。这是个修订语言定义的不断增补的过程，每年产生一个新的修订版。第一个修订版于2009年11月完成、2010年7月发布，称作Haskell 2010。
+### Haskell 2010
+Haskell 2010加入了外部函数接口（Foreign Function Interface，FFI）允许绑定到其它编程语言，修正了一些语法问题（在正式语法中的改动）并废除了称为“n加k模式”（换言之，不再允许形如fact (n+1) = (n+1) * fact n的定义）。引入了语言级编译选项语法扩展（Language-Pragma-Syntax-Extension），使得在Haskell源代码中可以明确要求一些扩展功能[8]。
 
 ## chapter 3： Haskell的编译环境
 
@@ -101,14 +111,18 @@ Edsger W. Dijkstra
 
 ## Reference
 
-[1]A History of Haskell: Being Lazy With Class. April 16, 2007. Paul Hudak.
+[1]A History of Haskell: Being Lazy With Class. April 16, 2007. Paul Hudak.  
 
-[2]https://spin.atomicobject.com/2013/03/05/why-haskell/
+[2]https://spin.atomicobject.com/2013/03/05/why-haskell/  
 
-[3]https://chrisdone.com/posts/dijkstra-haskell-java/
+[3]https://chrisdone.com/posts/dijkstra-haskell-java/  
 
-[4]https://blog.csdn.net/comeonmyideal/article/details/6689574
+[4]https://blog.csdn.net/comeonmyideal/article/details/6689574  
 
-[5]https://www.haskell.org/ghc/
+[5]https://www.haskell.org/ghc/  
 
-[6]https://yq.aliyun.com/articles/91036
+[6]https://yq.aliyun.com/articles/91036  
+ 
+[7]https://en.wikipedia.org/wiki/Haskell_(programming_language)#History  
+
+[8]https://zh.wikipedia.org/wiki/Haskell#%E5%8E%86%E5%8F%B2  
