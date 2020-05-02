@@ -11,7 +11,7 @@ JavaScript,通常缩写为JS，是一种符合ECMAScript规范的编程语言。
 </div>
 当时，开发新的网页脚本语言有两种方式选择，一是将现有语言嵌入到网页中，如Perl、Python、Tcl、Scheme等等，二是开发一个全新的语言，网景公司管理层对此争执不下。就在这时，发生了另外一件大事：1995年Sun公司将Oak语言改名为Java，正式向市场推出。Sun公司大肆宣传，许诺这种语言可以"一次编写，到处运行"（Write Once, Run Anywhere），它看上去很可能成为未来的主宰。于是，当时的形势就是，网景公司的整个管理层，都是Java的信徒，Sun公司完全介入网页脚本语言的决策。  
 
-这时，34岁的系统程序员Brendan Eich登场了。1995年4月，网景公司录用了他。网景公司录用布兰登的目的是研究将Scheme语言作为网页脚本语言的可能性，布兰登本人也认为自己进入公司后将主要与Scheme打交道。但仅仅一个月后，也就是1995年5月，网景公司做出决策，未来的网页脚本语言必须"看上去与Java足够相似"，但是比Java简单，能够让非专业的网页作者也可以很快上手。这就将Perl、Python、Tcl、Scheme等非面向对象编程的语言排除在外了。而布兰登，被指定为这种"简化版Java语言"的设计师。  
+这时，34岁的系统程序员布兰登（Brendan Eich）登场了。1995年4月，网景公司录用了他。网景公司录用布兰登时，布兰登承诺将Scheme语言运用到浏览器中，一些相关的管理人员认为布兰登的任务是将一种编程语言以源代码的形式嵌入到HTML中，至于是否是Scheme仍是一个开放性问题。但仅仅一个月后，也就是1995年5月，网景公司做出决策，未来的网页脚本语言必须"看上去与Java足够相似"，但是比Java简单，能够让非专业的网页作者也可以很快上手。这就将Perl、Python、Tcl、Scheme等非面向对象编程的语言排除在外了。而布兰登，被指定为这种"简化版Java语言"的设计师。  
 <div align=center>
 	<img src="https://github.com/BIT-SYS/Open-source-stories/raw/master/img/Brendan_Eich.jpg" width="160">
 </div>
@@ -24,7 +24,7 @@ JavaScript,通常缩写为JS，是一种符合ECMAScript规范的编程语言。
 - 借鉴Scheme语言，将函数提升到"第一等公民"（first class）的地位  
 - 借鉴Self语言，使用基于原型（prototype）的继承机制  
 
-事实上，布兰登本人一点也不喜欢自己的这个作品。"与其说我爱Javascript，不如说我恨它。它是C语言和Self语言一夜情的产物。十八世纪英国文学家约翰逊博士说得好：'它的优秀之处并非原创，它的原创之处并不优秀。'（the part that is good is not original, and the part that is original is not good.）"[2]。  
+事实上，布兰登本人并不喜欢自己的这个作品。"一些Ajax开发人员表示(并展示)非常喜欢它。然而许多人诅咒它，包括我在内。我仍然认为它是C语言和Self语言一夜情的产物。十八世纪英国文学家约翰逊博士说得好：'它的优秀之处并非原创，它的原创之处并不优秀。'（the part that is good is not original, and the part that is original is not good.）"[2]。  
 
 ## chapter 1：JavaScript和Java的关系与区别
 如果非要说JavaScript和Java之间有什么关系，那可能是雷锋和雷峰塔的关系[3]。  
@@ -45,16 +45,18 @@ Netscape Navigator 4于1997年发布，Internet Explorer 5于1998年发布。
 
 与其他语言相比，JavaScript非常不同。它没有编译器，没有调试器（至少不是很好的调试器），没有办法“运行JavaScript程序”，除了在浏览器中编写脚本，并查看它们是否运行。 JavaScript的开发工具仍然是原始的或不存在的。并且JS没有太多的开源社区，要弄清楚如何实现某项功能，通常会在其他人的网站上“查看源码”。 此外，Web开发人员编程社区中的大部分讨论都是JavaScript中兼容性和安全性的噩梦。  
 
-### 2008年的JavaScript
-大约在这个时候，一些JavaScript库变得流行，特别是jQuery，Prototype，YUI和Dojo。 这些库试图为JavaScript提供它缺少的东西：跨浏览器兼容性和编程模型，用于对浏览器内的页面进行动态操作，特别是对于新出现的JavaScript编程模型AJAX。 这是“动态”Web应用程序，单页应用程序等趋势的开始。  
+### JavaScript逐渐成熟
+关于JavaScript雄心勃勃的工作持续了数年，最终在2015年ECMAScript 6的发布中正式收集了大量的补充和改进。  
+
+大约在2008年，一些JavaScript库变得流行，特别是jQuery，Prototype，YUI和Dojo。其中jQuery是最流行的库，超过70%的网站使用它[9]。这些库试图为JavaScript提供它缺少的东西：跨浏览器兼容性和编程模型，用于对浏览器内的页面进行动态操作，特别是对于新出现的JavaScript编程模型AJAX。 这是“动态”Web应用程序，单页应用程序等趋势的开始。  
 
 ### JavaScript工具集的飞跃
 JavaScript的开发工具也取得了一些重要的飞跃。 2006年，Firefox团队发布了Firebug，这是Firefox的JavaScript和DOM调试器，后来Firefox成为世界上最受欢迎的Web浏览器之一，也是开源的。两年后，谷歌将首次发布谷歌Chrome，它捆绑了一些开发人员工具。大约在Chrome发布的同时，谷歌还发布了V8，这是嵌入Chrome内部的JavaScript引擎。这标志着世界第一次看到JavaScript语言的完整，高性能的开源实现，并没有完全与浏览器绑定。 Firefox的JS引擎SpiderMonkey是其源代码树的一部分，但不一定是在Firefox浏览器的上下文之外进行模块化和使用[5]。  
 
 ## chapter 3：JavaScript与ECMA的关系
-1996年，微软模仿JavaScript开发了一门相近的语言JScript，内置于IE3.0，Netscape公司面临丧失浏览器脚本语言的主导权局面。胳膊拗不过大腿，Netscape又找了个大哥-国际标准化组织ECMA（European Computer Manufacture Association）来抵抗微软。  
+1996年，微软模仿JavaScript开发了一门相近的语言JScript，内置于IE3.0，Netscape公司面临丧失浏览器脚本语言的主导权局面。胳膊拗不过大腿，Netscape又找了个大哥——国际标准化组织ECMA（European Computer Manufacture Association）来抵抗微软[7]。  
 
-​1997年，ECMA组织发布262号标准文件（ECMA-262），里面规定了浏览器脚本语言的标准，并将这种语言成为ECMAScript[7]。  
+​1996年11月，Netscape向ECMA International提交了JavaScript，作为所有浏览器供应商都能遵守的标准规范的起点。这导致了第一个ECMAScript语言规范在1997年6月正式发布，里面规定了浏览器脚本语言的标准[9]。 
 
 ## chapter 4：JavaScript版本迭代
 文章上面标准化部分提到，JavaScript于1997年成为ECMA标准，而ECMAScript就是该语言的官方名称。  
@@ -65,7 +67,13 @@ JavaScript的开发工具也取得了一些重要的飞跃。 2006年，Firefox�
 
 2015年到2018年，以一年一次的频率发布了ECMAScript 2015到ECMAScript 2018版本。ECMAScript 2015添加了let、const、默认参数值、Arrary.find()、Arrary.findIndex()。ECMAScript 2016添加了指数运算符（**）和Array.prototype.includes。ECMAScript 2017添加了字符串填充、新的Object属性、异步功能以及共享内存。ECMAScript 2018添加了rest/spread 属性、异步迭代、Promise.finally()以及RegExp[6]。  
 
-## chapter 5：有关布兰登的一些趣闻
+JavaScript现在可以被认为是一种已经基本稳定下来的成熟语言。
+
+## chapter 5：有关布兰登的一些趣闻  
+布兰登在帕洛阿尔托（Palo Alto）长大，然后就读于圣塔克拉拉大学（Santa Clara University）获得了数学和计算机科学学士学位。此后，他于1985年继续在伊利诺伊大学香槟分校获得硕士学位。  
+
+他在一家现已停业的高性能计算制造商Silicon Graphics公司开始了自己的编程生涯，即编写操作系统和网络代码。在Silicon Graphics工作了7年后，他进入MicroUnity Systems Engineering编写微内核和DSP代码。MicroUnity是宽带微处理器技术的早期开发者，至今仍然存在。1995年4月被聘请到网景公司，这在之前已经提到[10]。  
+
 布兰登的技术很牛，眼界宽广，表达能力也非常强，因此在网景公司内部他的话很有影响力。与他共事的工程师，在互联网上与他交流的开发者，甚至包括他遇见的高管们都非常赞赏他，赞赏他过人的才华、谦逊的态度和热心肠。  
 
 布兰登呆在电脑前就是一个恶魔，从舍不得浪费半点时间。如果同事因为某个问题打断了他与他交谈时，往往的结果就是，他会继续编程，收邮件，或者干脆同时与别人聊天，留给同事的只有半个侧脸。当谈话者要求他专心点，他就说他很忙，需要回去工作了。  
@@ -76,12 +84,14 @@ JavaScript的开发工具也取得了一些重要的飞跃。 2006年，Firefox�
 
 ## Reference
 [1]https://blog.csdn.net/lewis_lyx/article/details/7375330?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2  
-[2]https://blog.csdn.net/kese7952/article/details/79357868  
+[2]https://brendaneich.com/tag/history/  
 [3]https://www.zhihu.com/question/19913979  
 [4]https://www.jianshu.com/p/80e789c670aa  
 [5]https://www.cnblogs.com/wdsunny/p/11428307.html  
 [6]https://zixuephp.net/manual-javascript-691.html  
 [7]https://www.cnblogs.com/wenha/p/12079168.html  
-[8]https://zhuanlan.zhihu.com/p/19778958
+[8]https://zhuanlan.zhihu.com/p/19778958  
+[9]https://en.wikipedia.org/wiki/JavaScript  
+[10]https://hackernoon.com/changemakers-in-programming-brendan-eich-e43f2cc7d269
 
 
