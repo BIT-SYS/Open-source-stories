@@ -24,7 +24,7 @@ JavaScript,通常缩写为JS，是一种符合ECMAScript规范的编程语言。
 - 借鉴Scheme语言，将函数提升到"第一等公民"（first class）的地位  
 - 借鉴Self语言，使用基于原型（prototype）的继承机制  
 
-事实上，布兰登本人一点也不喜欢自己的这个作品。"与其说我爱Javascript，不如说我恨它。它是C语言和Self语言一夜情的产物。十八世纪英国文学家约翰逊博士说得好：'它的优秀之处并非原创，它的原创之处并不优秀。'（the part that is good is not original, and the part that is original is not good.）[2]"。  
+事实上，布兰登本人一点也不喜欢自己的这个作品。"与其说我爱Javascript，不如说我恨它。它是C语言和Self语言一夜情的产物。十八世纪英国文学家约翰逊博士说得好：'它的优秀之处并非原创，它的原创之处并不优秀。'（the part that is good is not original, and the part that is original is not good.）"[2]。  
 
 ## chapter 1：JavaScript和Java的关系与区别
 如果非要说JavaScript和Java之间有什么关系，那可能是雷锋和雷峰塔的关系[3]。  
