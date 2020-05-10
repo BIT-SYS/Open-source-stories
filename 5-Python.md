@@ -75,8 +75,47 @@ Python3相对于Python2有许多重大改动，包括将Python2中很令人困�
 但Python3仍在茁壮成长。自2008的Python3.0开始，每一到两年更新一个版本，并一直保持小版本的及时更新。Python3的开发者们在这上面也展示出了饱满的热情，每次的版本更新，除了修补发现的问题，还会增加一些新功能（比如3.8的海象运算符）。到本文写作时（2020.4.25），最新的Python3版本是3.8.2，同时3.9正在开发中。
 
 现在，Python具有良好的生态与丰富的第三方库。其中，具有代表性的就是numpy。相信使用过Python的读者多少都使用过或者至少听说过numpy。numpy支持大量的科学计算种类，在底层使用了预编译的C语言代码，所以保证了科学计算的速度。它现在已经基本成为了Python的必备第三方库。如果你想充分利用Python处理大量数据的能力，numpy一定会是一个选项，尤其是在现在人工智能、大数据的浪潮下。它甚至成为了许多其他第三方库的基础，比如最流行的深度学习框架tensorflow与pytorch一定程度上都包含了numpy的核心对象narray。[11] 之所以在这里提到numpy，是因为它的创始人Jim Hugunin与Python有着深厚的缘分，是Python发展历史上的另一个重要人物，不仅仅是因为numpy。我们下面还要详细介绍他。
+## chapter 4：IronPython和Jython
 
-## chapter 4：IronPython和它的创始人吉姆
+说到Python，就不得不提一下在Python的发展过程中延伸出的两个关键分支，Jython和IronPython。
+
+### Jython
+
+Jython和IronPython的故事都要追溯到一个关键的灵魂人物Jim Hugunin，这个人以一己之力对Python
+语言作出了无可比拟的贡献，在这里我们先说说他与Jython的故事。
+
+由于Python被开发出来后很快进入了快速发展期，使用Python的人员数目不断增长，然而Sun公司的Java语言也同样深入人心。随着Java实现的项目数量逐渐与C/C++逼近，Python的Java实现也变得很有必要。
+
+Jim Hugunin是吉多在国家研究动力中心(CNRI)的同事，Jython的故事始于他在麻省理工学院完成硕士论文的痛苦。在那篇论文中，吉姆制造、测量和分析了超导体-半导体结，这属于量子计算机的潜在组成部分。为了将分析测量出的结果与理论数据进行比较，他使用了Matlab。但吉姆认为Matlab并不好用，即使拥有出色的数值分析能力，但Matlab并不能进行其他的操作。为了克服Matlab的缺点，吉姆将C、Python和Matlab的代码拼凑到了一起，来计算最终的结果[13]。
+
+但Jim Hugunin知道这并不是解决问题的最佳方案，因此在完成了论文之后，他开始试图像Matlab一样自然地对Python进行扩展以支持数值分析，而又不牺牲Python作为一种丰富的通用编程语言的功能。当他将Numeric Python与其他多种编程语言的性能进行比较时，他惊讶地发现Java对于某些简单的数字基准测试而言，其速度与C语言一样快。
+
+发现了这一点后，Jim Hugunin立刻着手开始实验。他用了一周的时间来试图在Java上使用Python，并且确定了两者之间确实存在着某种优雅而漂亮的匹配。 比如他可以将Python程序手动转换为Java字节码，而不会造成性能上的重大损失。 其次，Java语言与Python有很多相似之处，并且是Python动态特性的静态替代品。 最后，他发现了一个很棒的java.reflect包，该包使得使用者无需其他额外操作就可以从Python加载和使用任意Java库。 这意味着我们应该可以从网上下载一个有趣的新Java库，将其放在类路径中，然后立即从Python开始使用它。
+
+Jim Hugunin实现了最初版本的Jython，但后续由于要开发aspectj，Jython的开发由其他人接手。Python和Jython项目组从CNRI离开后，在Sourceforge上转变为一种更开放的语言模型。由于兼具了Java和Python的特点，Jython既可以对Java类做到无缝存取，又同时具有Python简明、方便和易读的特性。Jython使用缩排来对代码块定界以避免使用在Java中的大括号，并用新的一行来表示一个新的语句的开始，而且允许在语句后省略分号。Jython没有像在Java中的public、private和protected存取符，这样就给程序员提供了快速开发所需要的灵活性，并将注意力集中在程序逻辑上。正像前面所提到的，Jython不用明显的静态的类型定义，故程序员不需要从程序逻辑转移到类型定义上来。
+
+Jython最初的含义是Python on JVM，所以最初的名称是JPython，后续由于基于JVM可以有更多可能性，名字改为Jython。Jython的版本开发暂停于2.7.2，除了Python社区比较分散，在 Java 生态圈得不到足够强大的支持，发展不起来的原因之外，与它的主要作者吉姆被微软雇用去开发IronPython想必也有很大的关系[12]。
+
+### IronPython
+
+IronPython其实就是一个C#版本的Python解释器，是一种在 NET 和 Mono 上实现的 Python 语言，还是由Jim Hugunin创造，使用动态类型系统将Python移植到了NET Framework上。
+
+当初，Jim Hugunin通过阅读网上的无数CLR(common language runtime)报告了解到，对于动态语言尤其是Python来说，CLR是一个极其糟糕的平台。按照他的话说：“最初的IronPython是作为一系列快速原型而面世的，创建它的初衷只是用来帮我了解这个平台到底有多么糟糕。我的计划是编写一个简练的论文，名称为“为什么CLR是一个糟糕透顶的动态语言平台”。后来，这些原型这个竟然运行百的很好，通常它们比基于标准C的Python实现要快多了，所以原来的计划也由此被打乱了。”
+
+在构造IronPython的过程中，Jim Hugunin和CLR团队进行了深入的交流。最终，他决定加入微软，加入CLR团队，这个时候Jim Hugunin并不是IronPython的开发者了，他们开始构造更适合动态语言的CLR。DLR（Dynamic Language Runtime）就是他们的工作成果之一。
+
+DLR构建在CLR之上，提供了一批服务和API，使得语言开发者能够容易地构造编程语言。它不但是IronPython 2.x的基础，也是C# 4.0的基础。C# 4.0提供了dynamic关键字，可以实现运行时的结构一致性语义（即duck typing）。从语句表达，到底层实现，C#已经完全动态化，动态语义已经渗入其机理。可见，DLR不但打通了IronPython与C#交互的关键，也必将影响到.NET平台上的所有开发者。
+
+IronPython与DLR是共生关系：CLR团队用IronPython来驱动DLR的开发，DLR的开发成果又反过来支持IronPython的进一步演化。这也表明，IronPython将受到微软的持续支持。也许有人会问：既然C# 4.0已经动态化，那么为什么还需要掌握一种“真正”的动态语言呢？Harry Pierson的回答是：用合适的工具做事（choose the right tool for the job）。Harry曾经是C#最早一批的开发者和使用者，后来曾任IronPython团队的程序经理。与《IronPython in Action》的作者Michael Foord相似，他很擅长也很喜欢C#，同时也非常热爱IronPython。
+
+IronPython的1.0版本在2006年被发布。这个版本具有很大的技术漏洞，比如它创建的所有动态生成的代码永远都不会被垃圾回收，从而导致巨大的内存泄漏。同时，它使用微软单方面的“开源”协议（译注：即MS-PL），但没有得到社区的信任。在接下里的几年里这个协议通过了OSI认证，最后IronPython转向了更著名的Apache开源协议。2008 年，随着微软发布 NET Framework3.0/3.5、Silverlight 之后，IronPython也发布了 2.0 版。
+
+2010年10月，在Microsoft中止了对IronPython的投资，这也成为了Jim Hugunin离开微软加入谷歌的导火索。接下来的几年，频繁更换组织者的IronPython项目的发展无比缓慢，最新版本于2020年4月27日发布，已经可以提供.NET Core和.NET Standard支持。
+
+将来IronPython可能会是一个成功的项目，因为IronPython没有全局解释器锁。很多Python实现都有这个特性，这也是高性能的绊脚石。所以我们依然期待着IronPython可以实现长久以来快速、多核友好的Python的梦想[14]。
+
+
+## chapter 5：Jim Hugunin
 IronPython是一个与.NET框架紧密集成的Python编程语言的一个开源实现。IronPython能够使用.NET框架和Python库，并且其他.NET语言可以很容易的使用Python代码。IronPython是.NET框架的一个优秀补充，为Python开发人员提供了.NET框架的强大功能。现有的.NET开发人员也可以使用IronPython作为一种快速且富有表现力的脚本语言，用于嵌入、测试或从头开始编写新的应用程序[7]。  
 
 IronPython是在动态语言运行时(DLR)之上实现的，DLR是一个运行在公共语言基础结构之上的库，它为动态语言提供动态类型和动态方法分派等功能。
@@ -108,3 +147,6 @@ IronPython完全是用c#编写的，尽管它的一些代码是由用Python编�
 [9]https://en.wikipedia.org/wiki/Jim_Hugunin  
 [10]https://www.cr173.com/html/7617_1.html  
 [11]https://www.numpy.org.cn/user/setting-up.html  
+[12]https://www.jython.org
+[13]http://hugunin.net
+[14]https://ironpython.net
