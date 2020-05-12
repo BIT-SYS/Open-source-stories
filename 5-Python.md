@@ -116,13 +116,24 @@ IronPython的1.0版本在2006年被发布。这个版本具有很大的技术漏
 
 
 ## chapter 5：Jim Hugunin
-IronPython是一个与.NET框架紧密集成的Python编程语言的一个开源实现。IronPython能够使用.NET框架和Python库，并且其他.NET语言可以很容易的使用Python代码。IronPython是.NET框架的一个优秀补充，为Python开发人员提供了.NET框架的强大功能。现有的.NET开发人员也可以使用IronPython作为一种快速且富有表现力的脚本语言，用于嵌入、测试或从头开始编写新的应用程序[7]。  
+吉姆（Jim Hugunin），一位与Python有着千丝万缕关系的软件程序员大佬。  
+### 吉姆与Numpy
+吉姆创建了Numpy的始祖——Numeric。  
 
-IronPython是在动态语言运行时(DLR)之上实现的，DLR是一个运行在公共语言基础结构之上的库，它为动态语言提供动态类型和动态方法分派等功能。
+Numeric的故事始于吉姆在MIT完成硕士论文的痛苦。在那篇论文中，为了分析测量结果并与理论进行比较，吉姆广泛地使用了matlab。Matlab是一种极好的适用于广泛数值分析的语言，然而，用matlab做任何其他事情都是很糟糕的。为了克服它的缺点，吉姆最终拼凑了C、Python和matlab代码的大杂烩来产生最终的结果。  
 
-IronPython完全是用c#编写的，尽管它的一些代码是由用Python编写的代码生成器自动生成的。
+虽然完成了论文，但吉姆知道，一定有更好的办法！  
 
-吉姆（Jim Hugunin）创建了这个项目，并且直到2006年9月5日发布的1.0版本，他都一直积极参与其中[8]。  
+于是，吉姆开始着手对Python进行扩展，以像matlab那样自然地支持数值分析，同时又不牺牲Python作为一种丰富的通用编程语言的强大功能。  
+
+Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“Jim Fulton、David Ascher、Paul DuBois、Konrad Hinsen和其他许多人的贡献使这个项目比孤立的努力更加成功。在许多原始社区成员的领导下，它现在仍然在sourceforge上蓬勃发展。”[7]
+
+### 吉姆与Jython
+
+
+### 吉姆与IronPython
+
+
 ![Jim Hugunin headshot](https://github.com/BIT-SYS/Open-source-stories/raw/master/img/Jim_hugunin_headshot.jpg)  
 
 2010年，微软放弃对IronPython的投资，吉姆离开微软加入了谷歌。在吉姆的个人网站中，他表示“将微软对于IronPython的决定是我离开微软的催化剂，但不能算是原因”。他还表示，在微软有一个“开源代码和社区保持健康的关系”是“可能的”，但“感觉就像把方钉入圆孔”[9]。  
@@ -142,7 +153,7 @@ IronPython完全是用c#编写的，尽管它的一些代码是由用Python编�
 [4]https://www.cnblogs.com/xincai/archive/2017/06/21/7058551.html  
 [5]https://www.runoob.com/python/python-2x-3x.html  
 [6]https://mp.weixin.qq.com/s/ql_lV9xzRFtRezcRGTpdqg  
-[7]https://ironpython.net/  
+[7]http://hugunin.net/story_of_jython.html  
 [8]https://en.wikipedia.org/wiki/IronPython  
 [9]https://en.wikipedia.org/wiki/Jim_Hugunin  
 [10]https://www.cr173.com/html/7617_1.html  
