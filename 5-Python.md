@@ -9,7 +9,7 @@
 
 <img src="https://pic3.zhimg.com/80/2ca0db56191f28abcccdbd7f2baf23dd_1440w.jpg" width="250">
 
-这句Bruce Eckel[3]印在T恤上的话被无数喜爱Python的程序员奉为至理名言。随着目前人工智能越来越火，Python凭借着扩展性强、第三方库丰富和免费开源等特点在机器学习、数据挖掘、人工智能等领域独领风骚。在前不久电气和电子工程师协会( IEEE）发布的顶级编程语言交互排行榜中，Python更是超越Java高居首位。
+这句布鲁斯·埃克尔（Bruce Eckel）[3]印在T恤上的话被无数喜爱Python的程序员奉为至理名言。随着目前人工智能越来越火，Python凭借着扩展性强、第三方库丰富和免费开源等特点在机器学习、数据挖掘、人工智能等领域独领风骚。在前不久电气和电子工程师协会( IEEE）发布的顶级编程语言交互排行榜中，Python更是超越Java高居首位。
 
 是什么让Python如此受到程序员们的喜爱呢？
 
@@ -44,7 +44,7 @@
 
 ## chapter 2: python的发展
 
-最初的 Python 完全由吉多本人开发。然而此后Guido同事也迅速爱上了这门新语言。他们不断反馈使用意见，并参与到 Python 的改进中。于是吉多和一些同事构成 Python 的核心团队，他们将自己大部分的业余时间用于hack Python（也包括工作时间，因为他们将 Python 用于工作）。
+最初的 Python 完全由吉多本人开发。然而此后吉多的同事也迅速爱上了这门新语言。他们不断反馈使用意见，并参与到 Python 的改进中。于是吉多和一些同事构成 Python 的核心团队，他们将自己大部分的业余时间用于hack Python（也包括工作时间，因为他们将 Python 用于工作）。
 
 <img src="https://images0.cnblogs.com/blog/92071/201305/06175655-b9ab3a0b656647f0b44ebfdf5f297ae6.jpg" width=150>
 
@@ -52,7 +52,7 @@
 
 此外，还有两点外界因素使 Python 得到迅速发展。一是硬件性能的提高，当时已进入90年代初，个人计算机开始进入普通家庭，程序员们开始关注计算机和语言的易用性。相比它的兄弟ABC语言因为硬件的性能限制而失败，Python 可以说是生逢其时，正好有机会可以大展拳脚。二是互联网的发展，当时许多程序员以及资深计算机用户已经开始频繁使用 Internet 进行交流。一种新的软件开发模式开始流行：开源。
 
-开放性是 Python 能够发展壮大的根本原因。吉多是一个很谦逊的人。他自认为自己不是全能型的程序员，所以他只负责制订框架。如果问题太复杂，他会选择绕过去，也就是cut the corner。这些问题最终由社区中的其他人解决。社区中的人才是异常丰富的，就连创建网站，筹集基金这样与开发稍远的事情，也有人乐意于处理。吉多维护了一个 maillist，Python 用户就可以通过邮件进行交流。Python 用户来自许多领域，有不同的背景，对Python也有不同的需求。每当用户不满足于现有功能，很容易对Python进行拓展或改造。随后，这些用户将改动发给 Guido，并由 Guido 决定是否将新的特征加入到 Python 或者标准库中。 而这样的特性不仅减少了开发人员本身的工作量，也使得Python得以快速发展[2]。
+开放性是 Python 能够发展壮大的根本原因。吉多是一个很谦逊的人。他自认为自己不是全能型的程序员，所以他只负责制订框架。如果问题太复杂，他会选择绕过去，也就是cut the corner。这些问题最终由社区中的其他人解决。社区中的人才是异常丰富的，就连创建网站，筹集基金这样与开发稍远的事情，也有人乐意于处理。吉多维护了一个 maillist，Python 用户就可以通过邮件进行交流。Python 用户来自许多领域，有不同的背景，对Python也有不同的需求。每当用户不满足于现有功能，很容易对Python进行拓展或改造。随后，这些用户将改动发给吉多，并由吉多决定是否将新的特征加入到 Python 或者标准库中。 而这样的特性不仅减少了开发人员本身的工作量，也使得Python得以快速发展[2]。
 
 所以在Python的后续版本更迭与发展中，Python的创始人吉多在一定程度上很好地处理了他作为创始人与社区之间的关系。吉多扮演了一个被称为一个“仁慈的终生独裁者”的角色，当然，这是一个褒义的委婉说法。如果说的直接一点，那就是吉多本人虽然不参与后续版本更迭代码的编写，但是他一直掌握着将哪些新功能加入Python的最终决定权，换言之他掌握着Python的方向。但是由于吉多谦虚和蔼的个人品质（不同于动辄XXXX的Linux创始人Linus），他可以平衡这巨大的权力与开发者的热情，所以Python的社区关系一直很融洽。但是在2018.7.12，吉多突然宣布放弃了自己仁慈的独裁者的职位，放弃了所有的权力。吉多本人接受采访时说这一方面是由于他考虑退休已经很久了，另一方面，一个颇具争议的Python改进提案（PEP 572）令他受到了大量攻击，最不能忍的是不少攻击来自Python核心成员，这使得他十分心寒。当时这一消息对于Python社区具有爆炸性的效果，出于对吉多的尊敬与爱戴，不少人在祝福的同时都担心Python未来的发展会不会失去方向。但从截至到目前的效果来看，so far so good。
 
@@ -62,7 +62,7 @@
 
 ## chapter 3: python的版本更迭
 
-Python的版本始于1991年。1989年吉多·范罗苏姆开始写Python的解释器。1991，第一个Python解释器诞生。它是用C语言实现的，并能够调用C语言的库文件。这个最初的版本并不具有版本号，但它已经具有了：类，函数，异常处理，包含表和词典在内的核心数据类型，以及模块为基础的拓展系统。
+Python的版本始于1991年。1989年吉多开始写Python的解释器。1991，第一个Python解释器诞生。它是用C语言实现的，并能够调用C语言的库文件。这个最初的版本并不具有版本号，但它已经具有了：类，函数，异常处理，包含表和词典在内的核心数据类型，以及模块为基础的拓展系统。
 
 1994年，Python1.0发布，相较于之前的原型，这个正式的版本增加了lambda, map, filter和reduce。之后Python1一直更新到了1.6.1版本，随后被Python2所代替。[4]
 
@@ -74,35 +74,35 @@ Python3相对于Python2有许多重大改动，包括将Python2中很令人困�
 
 但Python3仍在茁壮成长。自2008的Python3.0开始，每一到两年更新一个版本，并一直保持小版本的及时更新。Python3的开发者们在这上面也展示出了饱满的热情，每次的版本更新，除了修补发现的问题，还会增加一些新功能（比如3.8的海象运算符）。到本文写作时（2020.4.25），最新的Python3版本是3.8.2，同时3.9正在开发中。
 
-现在，Python具有良好的生态与丰富的第三方库。其中，具有代表性的就是numpy。相信使用过Python的读者多少都使用过或者至少听说过numpy。numpy支持大量的科学计算种类，在底层使用了预编译的C语言代码，所以保证了科学计算的速度。它现在已经基本成为了Python的必备第三方库。如果你想充分利用Python处理大量数据的能力，numpy一定会是一个选项，尤其是在现在人工智能、大数据的浪潮下。它甚至成为了许多其他第三方库的基础，比如最流行的深度学习框架tensorflow与pytorch一定程度上都包含了numpy的核心对象narray。[11] 之所以在这里提到numpy，是因为它的创始人Jim Hugunin与Python有着深厚的缘分，是Python发展历史上的另一个重要人物，不仅仅是因为numpy。我们下面还要详细介绍他。
+现在，Python具有良好的生态与丰富的第三方库。其中，具有代表性的就是numpy。相信使用过Python的读者多少都使用过或者至少听说过numpy。numpy支持大量的科学计算种类，在底层使用了预编译的C语言代码，所以保证了科学计算的速度。它现在已经基本成为了Python的必备第三方库。如果你想充分利用Python处理大量数据的能力，numpy一定会是一个选项，尤其是在现在人工智能、大数据的浪潮下。它甚至成为了许多其他第三方库的基础，比如最流行的深度学习框架tensorflow与pytorch一定程度上都包含了numpy的核心对象narray。[11] 之所以在这里提到numpy，是因为它的创始人吉姆·古根（Jim Hugunin）与Python有着深厚的缘分，是Python发展历史上的另一个重要人物，不仅仅是因为numpy。我们下面还要详细介绍他。
 ## chapter 4：IronPython和Jython
 
 说到Python，就不得不提一下在Python的发展过程中延伸出的两个关键分支，Jython和IronPython。
 
 ### Jython
 
-Jython和IronPython的故事都要追溯到一个关键的灵魂人物Jim Hugunin，这个人以一己之力对Python
+Jython和IronPython的故事都要追溯到一个关键的灵魂人物吉姆，这个人以一己之力对Python
 语言作出了无可比拟的贡献，在这里我们先说说他与Jython的故事。
 
 由于Python被开发出来后很快进入了快速发展期，使用Python的人员数目不断增长，然而Sun公司的Java语言也同样深入人心。随着Java实现的项目数量逐渐与C/C++逼近，Python的Java实现也变得很有必要。
 
-Jim Hugunin是吉多在国家研究动力中心(CNRI)的同事，Jython的故事始于他在麻省理工学院完成硕士论文的痛苦。在那篇论文中，吉姆制造、测量和分析了超导体-半导体结，这属于量子计算机的潜在组成部分。为了将分析测量出的结果与理论数据进行比较，他使用了Matlab。但吉姆认为Matlab并不好用，即使拥有出色的数值分析能力，但Matlab并不能进行其他的操作。为了克服Matlab的缺点，吉姆将C、Python和Matlab的代码拼凑到了一起，来计算最终的结果[13]。
+吉姆是吉多在国家研究动力中心(CNRI)的同事，Jython的故事始于他在麻省理工学院完成硕士论文的痛苦。在那篇论文中，吉姆制造、测量和分析了超导体-半导体结，这属于量子计算机的潜在组成部分。为了将分析测量出的结果与理论数据进行比较，他使用了Matlab。但吉姆认为Matlab并不好用，即使拥有出色的数值分析能力，但Matlab并不能进行其他的操作。为了克服Matlab的缺点，吉姆将C、Python和Matlab的代码拼凑到了一起，来计算最终的结果[13]。
 
-但Jim Hugunin知道这并不是解决问题的最佳方案，因此在完成了论文之后，他开始试图像Matlab一样自然地对Python进行扩展以支持数值分析，而又不牺牲Python作为一种丰富的通用编程语言的功能。当他将Numeric Python与其他多种编程语言的性能进行比较时，他惊讶地发现Java对于某些简单的数字基准测试而言，其速度与C语言一样快。
+但吉姆知道这并不是解决问题的最佳方案，因此在完成了论文之后，他开始试图像Matlab一样自然地对Python进行扩展以支持数值分析，而又不牺牲Python作为一种丰富的通用编程语言的功能。当他将Numeric Python与其他多种编程语言的性能进行比较时，他惊讶地发现Java对于某些简单的数字基准测试而言，其速度与C语言一样快。
 
-发现了这一点后，Jim Hugunin立刻着手开始实验。他用了一周的时间来试图在Java上使用Python，并且确定了两者之间确实存在着某种优雅而漂亮的匹配。 比如他可以将Python程序手动转换为Java字节码，而不会造成性能上的重大损失。 其次，Java语言与Python有很多相似之处，并且是Python动态特性的静态替代品。 最后，他发现了一个很棒的java.reflect包，该包使得使用者无需其他额外操作就可以从Python加载和使用任意Java库。 这意味着我们应该可以从网上下载一个有趣的新Java库，将其放在类路径中，然后立即从Python开始使用它。
+发现了这一点后，吉姆立刻着手开始实验。他用了一周的时间来试图在Java上使用Python，并且确定了两者之间确实存在着某种优雅而漂亮的匹配。 比如他可以将Python程序手动转换为Java字节码，而不会造成性能上的重大损失。 其次，Java语言与Python有很多相似之处，并且是Python动态特性的静态替代品。 最后，他发现了一个很棒的java.reflect包，该包使得使用者无需其他额外操作就可以从Python加载和使用任意Java库。 这意味着我们应该可以从网上下载一个有趣的新Java库，将其放在类路径中，然后立即从Python开始使用它。
 
-Jim Hugunin实现了最初版本的Jython，但后续由于要开发aspectj，Jython的开发由其他人接手。Python和Jython项目组从CNRI离开后，在Sourceforge上转变为一种更开放的语言模型。由于兼具了Java和Python的特点，Jython既可以对Java类做到无缝存取，又同时具有Python简明、方便和易读的特性。Jython使用缩排来对代码块定界以避免使用在Java中的大括号，并用新的一行来表示一个新的语句的开始，而且允许在语句后省略分号。Jython没有像在Java中的public、private和protected存取符，这样就给程序员提供了快速开发所需要的灵活性，并将注意力集中在程序逻辑上。正像前面所提到的，Jython不用明显的静态的类型定义，故程序员不需要从程序逻辑转移到类型定义上来。
+吉姆实现了最初版本的Jython，但后续由于要开发aspectj，Jython的开发由其他人接手。Python和Jython项目组从CNRI离开后，在Sourceforge上转变为一种更开放的语言模型。由于兼具了Java和Python的特点，Jython既可以对Java类做到无缝存取，又同时具有Python简明、方便和易读的特性。Jython使用缩排来对代码块定界以避免使用在Java中的大括号，并用新的一行来表示一个新的语句的开始，而且允许在语句后省略分号。Jython没有像在Java中的public、private和protected存取符，这样就给程序员提供了快速开发所需要的灵活性，并将注意力集中在程序逻辑上。正像前面所提到的，Jython不用明显的静态的类型定义，故程序员不需要从程序逻辑转移到类型定义上来。
 
 Jython最初的含义是Python on JVM，所以最初的名称是JPython，后续由于基于JVM可以有更多可能性，名字改为Jython。Jython的版本开发暂停于2.7.2，除了Python社区比较分散，在 Java 生态圈得不到足够强大的支持，发展不起来的原因之外，与它的主要作者吉姆被微软雇用去开发IronPython想必也有很大的关系[12]。
 
 ### IronPython
 
-IronPython其实就是一个C#版本的Python解释器，是一种在 NET 和 Mono 上实现的 Python 语言，还是由Jim Hugunin创造，使用动态类型系统将Python移植到了NET Framework上。
+IronPython其实就是一个C#版本的Python解释器，是一种在 NET 和 Mono 上实现的 Python 语言，还是由吉姆创造，使用动态类型系统将Python移植到了NET Framework上。
 
-当初，Jim Hugunin通过阅读网上的无数CLR(common language runtime)报告了解到，对于动态语言尤其是Python来说，CLR是一个极其糟糕的平台。按照他的话说：“最初的IronPython是作为一系列快速原型而面世的，创建它的初衷只是用来帮我了解这个平台到底有多么糟糕。我的计划是编写一个简练的论文，名称为“为什么CLR是一个糟糕透顶的动态语言平台”。后来，这些原型这个竟然运行百的很好，通常它们比基于标准C的Python实现要快多了，所以原来的计划也由此被打乱了。”
+当初，吉姆通过阅读网上的无数CLR(common language runtime)报告了解到，对于动态语言尤其是Python来说，CLR是一个极其糟糕的平台。按照他的话说：“最初的IronPython是作为一系列快速原型而面世的，创建它的初衷只是用来帮我了解这个平台到底有多么糟糕。我的计划是编写一个简练的论文，名称为“为什么CLR是一个糟糕透顶的动态语言平台”。后来，这些原型这个竟然运行百的很好，通常它们比基于标准C的Python实现要快多了，所以原来的计划也由此被打乱了。”
 
-在构造IronPython的过程中，Jim Hugunin和CLR团队进行了深入的交流。最终，他决定加入微软，加入CLR团队，这个时候Jim Hugunin并不是IronPython的开发者了，他们开始构造更适合动态语言的CLR。DLR（Dynamic Language Runtime）就是他们的工作成果之一。
+在构造IronPython的过程中，吉姆和CLR团队进行了深入的交流。最终，他决定加入微软，加入CLR团队，这个时候吉姆并不是IronPython的开发者了，他们开始构造更适合动态语言的CLR。DLR（Dynamic Language Runtime）就是他们的工作成果之一。
 
 DLR构建在CLR之上，提供了一批服务和API，使得语言开发者能够容易地构造编程语言。它不但是IronPython 2.x的基础，也是C# 4.0的基础。C# 4.0提供了dynamic关键字，可以实现运行时的结构一致性语义（即duck typing）。从语句表达，到底层实现，C#已经完全动态化，动态语义已经渗入其机理。可见，DLR不但打通了IronPython与C#交互的关键，也必将影响到.NET平台上的所有开发者。
 
@@ -116,9 +116,11 @@ IronPython的1.0版本在2006年被发布。这个版本具有很大的技术漏
 
 
 ## chapter 5：Jim Hugunin
-吉姆（Jim Hugunin），一位与Python有着千丝万缕关系的软件程序员大佬。  
-### 吉姆与Numpy
-吉姆创建了Numpy的始祖——Numeric。  
+“我构建的工具可以让软件开发人员尽可能简单和直接地表达他们的意图”，吉姆经常这样说。他也确实做到了。  
+
+![Jim Hugunin headshot](https://github.com/BIT-SYS/Open-source-stories/raw/master/img/Jim_hugunin_headshot.jpg)  
+
+相信绝大部分使用过Python的朋友都使用过Numpy，因为Numpy有着强大的数组、矩阵运算功能，而吉姆就是Numpy的始祖——Numeric的创造者。  
 
 Numeric的故事始于吉姆在MIT完成硕士论文的痛苦。在那篇论文中，为了分析测量结果并与理论进行比较，吉姆广泛地使用了matlab。Matlab是一种极好的适用于广泛数值分析的语言，然而，用matlab做任何其他事情都是很糟糕的。为了克服它的缺点，吉姆最终拼凑了C、Python和matlab代码的大杂烩来产生最终的结果。  
 
@@ -126,23 +128,16 @@ Numeric的故事始于吉姆在MIT完成硕士论文的痛苦。在那篇论文�
 
 于是，吉姆开始着手对Python进行扩展，以像matlab那样自然地支持数值分析，同时又不牺牲Python作为一种丰富的通用编程语言的强大功能。  
 
-Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“Jim Fulton、David Ascher、Paul DuBois、Konrad Hinsen和其他许多人的贡献使这个项目比孤立的努力更加成功。在许多原始社区成员的领导下，它现在仍然在sourceforge上蓬勃发展。”[7]
+Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“Jim Fulton、David Ascher、Paul DuBois、Konrad Hinsen和其他许多人的贡献使这个项目比孤立的努力更加成功。在许多原始社区成员的领导下，它现在仍然在sourceforge上蓬勃发展。”  
 
-### 吉姆与Jython
+在写博士论文时，吉姆又开启了Jython的历史。这在上一章中已经提到。但吉姆认为“Jython作为一个蓬勃发展的开源社区的故事真正始于我离开去从事AspectJ工作之后。Finn与Samuele Pedroni一起加入，他们共同做出了令人赞叹的工作，既使Jython与Python语言所做的几项重大改进保持同步，又继续改善了核心功能。”[7]  
 
+之后，吉姆还创建了Python在Microsoft .NET平台的实现——IronPython，这也在上一章中有详细介绍。  
 
-### 吉姆与IronPython
+2010年离开微软，即将开启在谷歌的职业生涯时，吉姆表示，在微软有一个“开源代码和社区保持健康的关系”是“可能的”，IronPython就是一个例子，但“感觉就像把方钉入圆孔”。吉姆还提到“我很高兴能去一个适合我的天性的地方，去学习如何构建伟大的软件”[8]。但事实上，吉姆在谷歌的职业生涯仅仅维持了不到3年的时间，他在2013年5月离开了谷歌。  
 
+2017年12月，吉姆发布了一个名为Artful Physics的布料模拟器测试版。然而，Patreon和艺术物理社区的帖子表明，他从2018年1月起就缺席了[9]。  
 
-![Jim Hugunin headshot](https://github.com/BIT-SYS/Open-source-stories/raw/master/img/Jim_hugunin_headshot.jpg)  
-
-2010年，微软放弃对IronPython的投资，吉姆离开微软加入了谷歌。在吉姆的个人网站中，他表示“将微软对于IronPython的决定是我离开微软的催化剂，但不能算是原因”。他还表示，在微软有一个“开源代码和社区保持健康的关系”是“可能的”，但“感觉就像把方钉入圆孔”[9]。  
-
-最后，Jim表示他将退出IronPython项目。目前IronPython已经有了新的组织者，他们是Miguel de Icaza、Michael Foord、Jeff Hardy与Jimmy Schementi，其中Miguel de Icaza和Jimmy Schement同时也会负责IronRuby项目的协调工作[10]。
-
-根据领英的资料，吉姆于2013年5月离开了谷歌。  
-
-2017年12月，吉姆发布了一个名为Artful Physics的布料模拟器测试版。然而，Patreon和艺术物理社区的帖子表明，他从2018年1月起就缺席了[9]。
 
 
 ## Reference
@@ -154,7 +149,7 @@ Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“J
 [5]https://www.runoob.com/python/python-2x-3x.html  
 [6]https://mp.weixin.qq.com/s/ql_lV9xzRFtRezcRGTpdqg  
 [7]http://hugunin.net/story_of_jython.html  
-[8]https://en.wikipedia.org/wiki/IronPython  
+[8]http://hugunin.net/microsoft_farewell.html
 [9]https://en.wikipedia.org/wiki/Jim_Hugunin  
 [10]https://www.cr173.com/html/7617_1.html  
 [11]https://www.numpy.org.cn/user/setting-up.html  
