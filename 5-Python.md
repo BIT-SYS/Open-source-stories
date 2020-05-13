@@ -149,10 +149,10 @@ Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“J
 [5]https://www.runoob.com/python/python-2x-3x.html  
 [6]https://mp.weixin.qq.com/s/ql_lV9xzRFtRezcRGTpdqg  
 [7]http://hugunin.net/story_of_jython.html  
-[8]http://hugunin.net/microsoft_farewell.html
+[8]http://hugunin.net/microsoft_farewell.html  
 [9]https://en.wikipedia.org/wiki/Jim_Hugunin  
 [10]https://www.cr173.com/html/7617_1.html  
 [11]https://www.numpy.org.cn/user/setting-up.html  
-[12]https://www.jython.org
-[13]http://hugunin.net
+[12]https://www.jython.org  
+[13]http://hugunin.net  
 [14]https://ironpython.net
