@@ -18,13 +18,13 @@ Go经常被称为Golang，主要是因为其网站域名golang.org（在美国go
 	<img src="https://github.com/BIT-SYS/Open-source-stories/raw/master/img/authorOfGo.png" width="200">
 </div>  
 
-###派克
+### 派克
 派克最出名的是在Go编程语言和贝尔实验室的工作，他是Unix团队的一员，参与了贝尔实验室和Inferno操作系统的Plan 9，以及Limbo编程语言的创建。他与汤普逊共事多年，并共创出广泛使用的UTF-8字元编码。  
 
-###汤普逊
+### 汤普逊
 汤普逊职业生涯的大部分时间都在贝尔实验室工作，在那里他设计并实现了最初的Unix操作系统。他还发明了B语言，C语言的直接前身，也是Plan 9操作系统的创造者和早期开发者之一。自2006年以来，汤普森一直在Google工作，并在Google参与了Go语言的研发工作[7]。  
 
-###格瑞史莫
+### 格瑞史莫
 在开发Go之前是Google V8、Chubby和HotSpot JVM的主要贡献者[6]。  
 
 ## chapter 2：Go语言特性
@@ -38,12 +38,12 @@ Go包括运行并发任务的内置机制。使用称为“goroutines”的轻�
 
 同时，Go语言实现了CSP（通信顺序进程，Communicating Sequential Process）模型来作为goroutine间的推荐通信方式，在CSP模型中，一个并发系统由若干并行运行的顺序进程组成，每个进程不能对其他进程的变量赋值。进程之间只能通过一对通信原语实现协作。Go语言用channel（通道）这个概念来轻巧地实现了CSP模型。channel的使用方式比较接近Unix系统中的管道（pipe）概念，可以方便地进行跨goroutine的通信[5]。  
 
-###垃圾回收机制
+### 垃圾回收机制
 Go将内存使用保持在最低限度。它提供了垃圾收集，但也让使用者免于线程过载。“我们不必担心我们正在运行的线程数量。我们不是一直在问‘我们的资源是否已经耗尽了?’”Rarick解释道，“我们可以用很多goroutines来代替，这是语言中内置的。”  
 
 
 这是一个独特的组合。C提供了控制权，但它并不适合并发。它甚至不给你进行垃圾收集。Go提供了并发性和垃圾收集，但它仍然为您提供了对内存布局和资源使用的控制。  
-##chapter 3：Go语言发展历史
+## chapter 3：Go语言发展历史
 <div align=center>
 	<img src="https://github.com/BIT-SYS/Open-source-stories/raw/master/img/GoHistory.png" width="250">
 </div>  
