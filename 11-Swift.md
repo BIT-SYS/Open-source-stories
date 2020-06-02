@@ -6,11 +6,17 @@
 
 因为Swift是苹果公司推出的，所以它是现代软件工程团队合作的结果，我们很难给他找出一位或者几位创始人。相应地，在人物这一环节我们关注的将是苹果公司。
 
-Swift的诞生应当算是2014年。在2014年的苹果开发者大会（WWDC）上，时任苹果公司CEO蒂姆库克发布了iOS 8，与之同时发布的就是Swift。Swift独立于C语言与苹果之前使用的Objective-C，苹果希望Swift可以为其旗下产品带来更好的体验。但既然是苹果公司为自身产品定做的语言，自然要考虑兼容的问题，这款新的语言应当可以与之前苹果系统内软件开发所用语言兼容，具体来讲，就是Swift应该与Objective-C兼容。而苹果也的确考虑了这一点。Swift使用了Objective-C的命名参数以及动态对象模型，可以无缝对接到现有的Cocoa框架，并且可以兼容Objective-C代码。但它在各个方面优于 Objective-C，也不会有那么多复杂的符号和表达式。可以说，Swift是基于Objective-C的改进，它在编程语言上的父亲是Objective-C语言。
+Swift的诞生应当算是2014年。在2014年的苹果开发者大会（WWDC）上，苹果公司发布了iOS 8，与之同时发布的就是Swift。
+
+<img src="http://d.ifengimg.com/mw480/y3.ifengimg.com/508df9aec9e2a/image/2014/06/03/538cc6ae3c365_480_320.jpg">
+
+Swift独立于C语言与苹果之前使用的Objective-C，苹果希望Swift可以为其旗下产品带来更好的体验。但既然是苹果公司为自身产品定做的语言，自然要考虑兼容的问题，这款新的语言应当可以与之前苹果系统内软件开发所用语言兼容，具体来讲，就是Swift应该与Objective-C兼容。而苹果也的确考虑了这一点。Swift使用了Objective-C的命名参数以及动态对象模型，可以无缝对接到现有的Cocoa框架，并且可以兼容Objective-C代码。但它在各个方面优于 Objective-C，也不会有那么多复杂的符号和表达式。可以说，Swift是基于Objective-C的改进，它在编程语言上的父亲是Objective-C语言。
 
 ## chapter1 Objective-C与苹果
 
-我们在这里就有必要介绍以下Objective-C在苹果公司的历史，尤其是这中间还包含了史蒂夫·乔布斯（Steve Jobs）与他的苹果公司的往日恩怨。
+我们在这里就有必要介绍以下Objective-C在苹果公司的历史，尤其是这中间还包含了传奇的史蒂夫·乔布斯（Steve Jobs）与他的苹果公司的往日恩怨。
+
+<img src="https://upload-images.jianshu.io/upload_images/22455268-902a11017d5cf2e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 Objective-C是在1980年代初由布莱德·考克斯(Brad Cox)在他自己的公司Stepstone创建的。考克斯当时想打造的是一门流行的、可移植的C语言与优雅的Smalltalk的结合体，于是在C的基础上，加入面向对象特性就得到了Objective-C，这从它的名字也可以看出来（对象的C）。考克斯本人的专业领域是软件工程，所以Objective-C的核心思想是软件重用性，组建化。
 
@@ -20,17 +26,17 @@ Objective-C与苹果产生联系是1985年之后的事，这一年，史蒂夫·
 
 1993，NeXT公司放弃了硬件业务，专注于软件，也就是他们的NeXT STEP操作系统上。他们与太阳公司（SUN）一起搞出来了一个NeXT STEP的升级版OPENSTEP，它可以运行在Soloris和Windows NT。
 
-1995年，NeXT从考克斯的Stepstone公司拿到了Objective-C。到这里，似乎Objective-C都和苹果没什么关系。但别着急。
+1995年，NeXT从考克斯的Stepstone公司拿到了Objective-C的全部授权。到这里，似乎Objective-C都和苹果没什么关系。但别着急。
 
 1996年，苹果买下了它的创始人被扫地出门后创建的NeXT公司，其主要目的就是用NeXT的NeXT STEP操作系统取代老旧的Mac OS。伴随着收购，乔布斯重回苹果董事会。
 
 1997年，乔布斯以救世主的姿态重新出任苹果CEO。
 
-伴随着NeXT STEP进入苹果的操作系统与乔布斯成为CEO，OBjective—C语言也进入了苹果的技术栈。这其中一方面是由于新的Mac OS基于NeXT STEP，就必然要引入Objective-C；另一方面可能是因为乔布斯个人，他著名的控制欲使他一直想要掌握他产品的各个方面，包括编程语言在内，所以使用完全在自己手里的Objective-C就是很好的选择。从2001年苹果发布的Mac OS X开始，Objective-C，以及NeXTStep和OpenStep所引入的面向对象技术就在苹果公司的产品中大量使用了。后来，Objective-C被用来在XCode IDE下编写本地面向对象的“Cocoa”API，这些API是iOS上手势识别和动画功能的核心，这些功能为iPhone和iPad增光不少。Objective-C还提供了Foundation Kit和Application Kit，用于构建本地的OS X和iOS应用程序。
+伴随着NeXT STEP进入苹果的操作系统与乔布斯成为CEO，Objective—C语言也进入了苹果的技术栈。这其中一方面是由于新的Mac OS基于NeXT STEP，就必然要引入Objective-C；另一方面可能是因为乔布斯个人，他著名的控制欲使他一直想要掌握他产品的各个方面，包括编程语言在内，所以使用完全在自己手里的Objective-C就是很好的选择。从2001年苹果发布的Mac OS X开始，Objective-C，以及NeXT STEP和OpenStep所引入的面向对象技术就在苹果公司的产品中大量使用了。后来，Objective-C被用来在XCode IDE下编写本地面向对象的“Cocoa”API，这些API是iOS上手势识别和动画功能的核心，这些功能为iPhone和iPad增光不少。Objective-C还提供了Foundation Kit和Application Kit，用于构建本地的OS X和iOS应用程序。
 
 ## chapter2 Swift的发展
 
-但是随着时代的发展，Objective-C变得越来越不方便了。从某种程度上说，它太古老而特殊了。开发者必须使用专有编程系统，这使得开发者很难写出高质量的跨平台软件，因此必须投资大量精力在OSX/iOS平台上，从而无暇顾及和Apple竞争的平台。这甚至引起了开发者相当程度的不满。作为应对，苹果顺势推出了Swift作为替代。Swift可以完全兼容Objective-C，它取代了Objective-C成为苹果生态圈内的编程语言。
+但是随着时代的发展，Objective-C变得越来越不方便了。从某种程度上说，它太古老而特殊了。开发者必须使用专有编程系统，这使得开发者很难写出高质量的跨平台软件，因此必须投资大量精力在OSX/iOS平台上，从而无暇顾及其他和苹果竞争的平台。这甚至引起了开发者相当程度的不满。作为应对，苹果顺势推出了Swift作为替代。Swift可以完全兼容Objective-C，它取代了Objective-C成为苹果生态圈内的编程语言。
 
 2010年，LLVM编译器的原作者，同时也是苹果开发者工具部门总监克里斯·拉特纳（Chris Lattner）开始着手创建Swift编程语言的工作，还有一个团队大力参与其中。拉特纳主要负责了Swift的架构，如果要给Swift找出来一个作者，那么拉特纳是比较合适的。经历了四年的时间，2014年的苹果开发者大会上，Swift发布。
 
@@ -57,7 +63,7 @@ Objective-C与苹果产生联系是1985年之后的事，这一年，史蒂夫·
 
 ### 编译特点
 
-由于Swift是苹果公司出品，它的编译也打上了苹果的烙印。我们都知道拉特纳2005进入苹果后。就职于苹果公司并领导一个专门为苹果开发系统研发编译器的工作组，该工作组基于 LLVM 支持苹果各类系统研发，并使 LLVM 成为苹果 macOS 和 iOS开发工具的一部分。因此LLVM是苹果一直使用的编译器，最开始，LLVM打算使用GCC作为前端，后来为了改善对Objective-C的支持并避免开源协议的纠纷，苹果开发了一个基于LLVM的新编译器前端，就是Clang。到了Swift，苹果沿用了LLVM编译器后端，用一个叫swiftc的编译器前端代替了clang。
+由于Swift是苹果公司出品，它的编译也打上了苹果的烙印。拉特纳2005进入苹果后，就职于苹果公司并领导一个专门为苹果开发系统研发编译器的工作组，该工作组基于 LLVM 支持苹果各类系统研发，并使 LLVM 成为苹果 macOS 和 iOS开发工具的一部分。因此LLVM是苹果一直使用的编译器，最开始，LLVM打算使用GCC作为前端，后来为了改善对Objective-C的支持并避免开源协议的纠纷，苹果开发了一个基于LLVM的新编译器前端，就是Clang。到了Swift，苹果沿用了LLVM编译器后端，用一个叫swiftc的编译器前端代替了clang。
 
 ### 易上手
 
