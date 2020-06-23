@@ -74,7 +74,7 @@ Python3相对于Python2有许多重大改动，包括将Python2中很令人困�
 
 但Python3仍在茁壮成长。自2008的Python3.0开始，每一到两年更新一个版本，并一直保持小版本的快速更新。Python3的开发者们在这上面也展示出了饱满的热情，每次的版本更新，除了修补发现的问题，还会增加一些新功能（比如3.8的海象运算符）。到本文写作时（2020.4.25），最新的Python3版本是3.8.2，同时3.9正在开发中。
 
-现在，Python具有良好的生态与丰富的第三方库。其中，具有代表性的就是numpy。相信使用过Python的读者多少都使用过或者至少听说过numpy。numpy支持大量的科学计算种类，在底层使用了C语言程序，所以保证了科学计算的速度。它现在已经基本成为了Python的必备第三方库。如果你想充分利用Python处理大量数据的能力，numpy一定会是一个选项，尤其是在现在人工智能、大数据的浪潮下，它甚至成为了许多其他第三方库的基础，比如最流行的深度学习框架tensorflow与pytorch一定程度上都包含了numpy的核心对象narray[11] 。之所以在这里提到numpy，是因为它的创始人吉姆·古根（Jim Hugunin）与Python有着深厚的缘分，是Python发展历史上的另一个重要人物，不仅仅是因为numpy。我们下面还要详细介绍他。
+现在，Python具有良好的生态与丰富的第三方库。其中，具有代表性的就是numpy。相信使用过Python的读者多少都使用过或者至少听说过numpy。numpy支持大量的科学计算种类，在底层使用了C语言程序，所以保证了科学计算的速度。它现在已经基本成为了Python的必备第三方库。如果你想充分利用Python处理大量数据的能力，numpy一定会是一个选项，尤其是在现在人工智能、大数据的浪潮下，它甚至成为了许多其他第三方库的基础，比如最流行的深度学习框架tensorflow与pytorch一定程度上都包含了numpy的核心对象narray[7] 。之所以在这里提到numpy，是因为它的创始人吉姆·古根（Jim Hugunin）与Python有着深厚的缘分，是Python发展历史上的另一个重要人物，不仅仅是因为numpy。我们下面还要详细介绍他。
 
 ## chapter 4：IronPython和Jython
 
@@ -87,7 +87,7 @@ Jython和IronPython的故事都要追溯到一个关键的灵魂人物吉姆，�
 
 由于Python被开发出来后很快进入了快速发展期，使用Python的人员数目不断增长，然而Sun公司的Java语言也同样深入人心。随着Java实现的项目数量逐渐与C/C++逼近，Python的Java实现也变得很有必要。
 
-吉姆是吉多在国家研究动力中心(CNRI)的同事，Jython的故事始于他在麻省理工学院完成硕士论文的痛苦。在那篇论文中，吉姆制造、测量和分析了超导体-半导体结。为了将分析测量出的结果与理论数据进行比较，他使用了Matlab。但吉姆认为Matlab并不好用，即使拥有出色的数值分析能力，但Matlab并不能进行其他的操作。为了克服Matlab的缺点，吉姆将C、Python和Matlab的代码拼凑到了一起，来计算最终的结果[13]。
+吉姆是吉多在国家研究动力中心(CNRI)的同事，Jython的故事始于他在麻省理工学院完成硕士论文的痛苦。在那篇论文中，吉姆制造、测量和分析了超导体-半导体结。为了将分析测量出的结果与理论数据进行比较，他使用了Matlab。但吉姆认为Matlab并不好用，即使拥有出色的数值分析能力，但Matlab并不能进行其他的操作。为了克服Matlab的缺点，吉姆将C、Python和Matlab的代码拼凑到了一起，来计算最终的结果[8]。
 
 但吉姆知道这并不是解决问题的最佳方案，因此在完成了论文之后，他开始试图像Matlab一样自然地对Python进行扩展以支持数值分析，而又不牺牲Python作为一种丰富的通用编程语言的功能。当他将Numeric Python与其他多种编程语言的性能进行比较时，他惊讶地发现Java对于某些简单的数字基准测试而言，其速度与C语言一样快。
 
@@ -95,7 +95,7 @@ Jython和IronPython的故事都要追溯到一个关键的灵魂人物吉姆，�
 
 吉姆实现了最初版本的Jython，但后续由于要开发Aspectj，Jython的开发由其他人接手。Jython项目组从CNRI离开后，在Sourceforge上转变为一种更开放的语言。由于兼具了Java和Python的特点，Jython既可以对Java类做到无缝存取，又同时具有Python简明、方便和易读的特性。
 
-Jython最初的含义是Python on JVM，所以最初的名称是JPython，后续由于基于JVM可以有更多可能性，名字改为Jython。Jython的使用并不广泛，除了Python社区比较分散，在 Java 生态圈得不到足够强大的支持以外，与它的主要作者吉姆被微软雇用去开发IronPython想必也有很大的关系[12]。
+Jython最初的含义是Python on JVM，所以最初的名称是JPython，后续由于基于JVM可以有更多可能性，名字改为Jython。Jython的使用并不广泛，除了Python社区比较分散，在 Java 生态圈得不到足够强大的支持以外，与它的主要作者吉姆被微软雇用去开发IronPython想必也有很大的关系[9]。
 
 ### IronPython
 
@@ -107,7 +107,7 @@ IronPython的1.0版本在2006年发布。这个版本具有很大的技术漏洞
 
 2010年10月，Microsoft中止了对IronPython的投资，这也成为了Jim Hugunin离开微软加入谷歌的导火索。接下来的几年，频繁更换组织者的IronPython项目的发展无比缓慢，但是仍然在不断的更新升级中。
 
-将来IronPython可能会是一个成功的项目，因为IronPython没有全局解释器锁。很多Python实现都有这个顽固的绊脚石。所以我们依然期待着IronPython可以实现长久以来快速、多核友好的Python的梦想[14]。
+将来IronPython可能会是一个成功的项目，因为IronPython没有全局解释器锁。很多Python实现都有这个顽固的绊脚石。所以我们依然期待着IronPython可以实现长久以来快速、多核友好的Python的梦想[10]。
 
 
 ## chapter 5：Jim Hugunin
@@ -125,11 +125,11 @@ Numeric的故事始于吉姆在MIT完成硕士论文的痛苦。在那篇论文�
 
 Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“Jim Fulton、David Ascher、Paul DuBois、Konrad Hinsen和其他许多人的贡献使这个项目比孤立的努力更加成功。在许多原始社区成员的领导下，它现在仍然在sourceforge上蓬勃发展。”  
 
-在写博士论文时，吉姆又开启了Jython的历史。但吉姆认为“Jython作为一个蓬勃发展的开源社区的故事真正始于我离开去从事AspectJ工作之后。Finn与Samuele Pedroni一起加入，他们共同做出了令人赞叹的工作，既使Jython与Python语言所做的几项重大改进保持同步，又继续完善了核心功能。”[7]  
+在写博士论文时，吉姆又开启了Jython的历史。但吉姆认为“Jython作为一个蓬勃发展的开源社区的故事真正始于我离开去从事AspectJ工作之后。Finn与Samuele Pedroni一起加入，他们共同做出了令人赞叹的工作，既使Jython与Python语言所做的几项重大改进保持同步，又继续完善了核心功能。”[11]  
 
-之后，吉姆还创建了Python在Microsoft .NET平台的实现——IronPython。2010年离开微软，即将开启在谷歌的职业生涯时，吉姆表示，在微软有一个“开源代码和社区保持健康的关系”是“可能的”，IronPython就是一个例子，但“感觉就像把方钉入圆孔”。吉姆还提到“我很高兴能去一个适合我的天性的地方，去学习如何构建伟大的软件”[8]。但事实上，吉姆在谷歌的职业生涯仅仅维持了不到3年的时间，他在2013年5月离开了谷歌。  
+之后，吉姆还创建了Python在Microsoft .NET平台的实现——IronPython。2010年离开微软，即将开启在谷歌的职业生涯时，吉姆表示，在微软有一个“开源代码和社区保持健康的关系”是“可能的”，IronPython就是一个例子，但“感觉就像把方钉入圆孔”。吉姆还提到“我很高兴能去一个适合我的天性的地方，去学习如何构建伟大的软件”[12]。但事实上，吉姆在谷歌的职业生涯仅仅维持了不到3年的时间，他在2013年5月离开了谷歌。  
 
-2017年12月，吉姆发布了一个名为Artful Physics的布料模拟器测试版。然而，Patreon和艺术物理社区的帖子表明，他从2018年1月起就缺席了[9]。  
+2017年12月，吉姆发布了一个名为Artful Physics的布料模拟器测试版。然而，Patreon和艺术物理社区的帖子表明，他从2018年1月起就缺席了[13]。  
 
 
 ## Reference
@@ -140,11 +140,10 @@ Numeric是第一个让吉姆发现协作式开源社区的力量的项目。“J
 [4]https://www.cnblogs.com/xincai/archive/2017/06/21/7058551.html  
 [5]https://www.runoob.com/python/python-2x-3x.html  
 [6]https://mp.weixin.qq.com/s/ql_lV9xzRFtRezcRGTpdqg  
-[7]http://hugunin.net/story_of_jython.html  
-[8]http://hugunin.net/microsoft_farewell.html  
-[9]https://en.wikipedia.org/wiki/Jim_Hugunin  
-[10]https://www.cr173.com/html/7617_1.html  
-[11]https://www.numpy.org.cn/user/setting-up.html  
-[12]https://www.jython.org  
-[13]http://hugunin.net  
-[14]https://ironpython.net
+[7]https://www.numpy.org.cn/user/setting-up.html  
+[8]http://hugunin.net
+[9]https://www.jython.org  
+[10]https://ironpython.net
+[11]http://hugunin.net/story_of_jython.html  
+[12]http://hugunin.net/microsoft_farewell.html  
+[13]https://en.wikipedia.org/wiki/Jim_Hugunin  
